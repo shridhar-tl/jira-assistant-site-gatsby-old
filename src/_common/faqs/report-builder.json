@@ -1,0 +1,32 @@
+[
+    {
+        "feature": "report-builder",
+        "tags": [
+            "expressions"
+        ],
+        "questions": [
+            "How to use expressions in custom reports and report builder?"
+        ],
+        "answer": "Expressions are basically JavaScript Code. You will get the current data in Field object in the expression. You would be able to use most of the inbuilt JavaScript functions as well in your expression. For example you can write Field.assignee.name, Field.summary, parseInt(Field.timespent), etc.. You can use the usual JavaScript Math class and other operators for calculations as well."
+    },
+    {
+        "feature": "report-builder",
+        "tags": [
+            "charts"
+        ],
+        "questions": [
+            "How do I use charts in report builder?"
+        ],
+        "answer": "Charts component in report builder module uses chart.js component. So, you can refer the official website of chart.js on how to pass data and other properties. But as of now no samples or documentation is available to explain about it. I will try to put something together in the future if time permits. But as this is not a widely used feature, it is of low priority at this moment."
+    },
+    {
+        "feature": "report-builder",
+        "tags": [
+            "report builder"
+        ],
+        "questions": [
+            "How do I use report builder?"
+        ],
+        "answer": "As of now one sample YouTube video is available on how to generate simple reports with report builder. But as of now no documentation is available to explain about it. I will try to put something together in the future if time permits. But as this is not a widely used feature, it is of low priority at this moment."
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "feature": "dashboard",
+        "tags": [
+            "default icon",
+            "icon",
+            "rename",
+            "dashboard name"
+        ],
+        "questions": [
+            "How can I rename or change the default icon of my dashboard?"
+        ],
+        "answer": "To rename your dashboard, navigate to that dashboard and click on the name header label. There you can change both the name and the default icon of that dashboard."
+    },
+    {
+        "feature": "dashboard",
+        "tags": [
+            "gadget",
+            "open tickets",
+            "query",
+            "filter"
+        ],
+        "questions": [
+            "Is it possible to change the tickets list shown in My Open Tickets gadget?",
+            "How do I change the tickets list shown in My Open Tickets gadget?"
+        ],
+        "answer": "You can change the list of tickets shown in My Open Tickets gadget by changing the JQL. To change the JQL, go to Settings > Advanced and find the JQL corresponding to \"Open tickets JQL\" label. You cannot edit the default JQL, but you can edit the instance specific JQL."
+    },
+    {
+        "feature": "dashboard",
+        "tags": [
+            "customize"
+        ],
+        "questions": [
+            "Can I build my own gadget?"
+        ],
+        "answer": "Yes, you can build a new gadget by building a report using Custom Reports or Report Builder module. Once you have built a report and have saved it, it would be available under add gadget popup from where you can add it to dashboard as a gadget."
+    },
+    {
+        "feature": "dashboard",
+        "tags": [
+            "customize"
+        ],
+        "questions": [
+            "Can I customize inbuilt gadgets?",
+            "How do I change the tickets list shown in My Open Tickets gadget?"
+        ],
+        "answer": "Some levels of customizations are allowed for each gadgets. You can look at the corresponding gadget's settings by clicking on the wrench icon and JA Advanced settings for some options to customize the gadget. But most of the customizations you expect can be built using Custom reports/Report builder."
+    }
+]

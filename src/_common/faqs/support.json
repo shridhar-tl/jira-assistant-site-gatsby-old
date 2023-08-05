@@ -1,0 +1,124 @@
+[
+    {
+        "feature": "support",
+        "tags": [
+            "sla",
+            "bugfix"
+        ],
+        "questions": [
+            "How long does it usually take for the issue to be resolved, once reported?",
+            "How long will it take to solve my bug?",
+            "How quick can I expect support / response from developer?",
+            "Why does it take so long to solve the issue?"
+        ],
+        "answer": "Unfortunately, JA is developed and maintained by a single developer and as of now no other support is available. Hence it becomes difficult for a single developer to allocate time of replying to chats or resolving a bug on time. Queries raised are prioritized and resolved based on the supporting details provided and severity of the query"
+    },
+    {
+        "feature": "support",
+        "tags": [
+            "build",
+            "deployment"
+        ],
+        "questions": [
+            "How frequently does JA gets updated?"
+        ],
+        "answer": "JA Web would receive updates as and when the issue is fixed and has a quicker turn around. But when it comes to extensions/desktop apps, it takes more time due to the waiting time in queue and publish of the store. Due to this waiting time, there will not be frequent publishes unless there are major bug fixes/features."
+    },
+    {
+        "feature": "support",
+        "tags": [
+            "updates",
+            "publish"
+        ],
+        "questions": [
+            "Why browsers like Firefox, Edge and Opera does not get frequent updates?",
+            "Why isn't the firefox plugin being updated?"
+        ],
+        "answer": "Some times their could be fixes specific to a browser or their could be very minor feature additions. So in such cases not all browsers gets JA updates immediately. But after a month or two, it would get updated along with new additions. Their could be one more reason where their was major refactoring in code which could have some negative impacts. In such cases also updates are first published to one browser for testing."
+    },
+    {
+        "feature": "support",
+        "tags": [
+            "updates",
+            "publish"
+        ],
+        "questions": [
+            "Why chrome extension is not getting updated automatically?",
+            "Why chrome extension is stuck at old version?"
+        ],
+        "answer": "Chrome extension is updated on phased basis to avoid any breaking changes impacting all users. So it is pushed to a specific percentage of users and slowly pushed to other users over a time period. Hence you can either wait till it happens automatically or just go to \"chrome://extensions\" page and click update to immediately update your extension."
+    },
+    {
+        "feature": "support",
+        "tags": [
+            "paid",
+            "pro"
+        ],
+        "questions": [
+            "Can I request for a new feature if I could pay for it?",
+            "Can I get a customized feature?"
+        ],
+        "answer": "You can request for any new features by raising a ticket in GitHub with detailed description. Depending on available bandwidth, we would prioritize. If you are badly in need of a feature and if you are willing to make a one-time contribution for it, then after raising the ticket, you can contact the developer through mail. We can discuss further on it."
+    },
+    {
+        "feature": "support",
+        "tags": [
+            "browser support",
+            "versions"
+        ],
+        "questions": [
+            "What all browsers do we support officially?",
+            "Are there any browser specific issues?"
+        ],
+        "answer": "As of now, Jira Assistant works better with Chrome, Firefox, Edge and Opera. But few users use it with other browsers with minimal issues/work around's. With Vivaldi it is known to work well, but is not officially supported at this point. Additionally this can also be installed as an App within Jira cloud and let all your employee's use it."
+    },
+    {
+        "feature": "support",
+        "tags": [
+            "video calls",
+            "zoom calls"
+        ],
+        "questions": [
+            "Can I have a developer in video call?",
+            "Can I have a developer for screen share?",
+            "Can I have a call with screen share?"
+        ],
+        "answer": "Being a single developer, it is very difficult for us to getting into calls with individual users. So, we would suggest you to raise a support ticket with required details in Git Hub. Alternatively, if it is a question, discussions under GitHub can be used to ask your question."
+    },
+    {
+        "feature": "support",
+        "tags": [
+            "release",
+            "plan"
+        ],
+        "questions": [
+            "How can I know when next release is planned?",
+            "When would be the next release?"
+        ],
+        "answer": "Their are no specific interval on when the release would happen. Usually it would happen on weekends. But if their are major issue fixes, then it can happen on any day. Usually for planned feature releases, you would see the notification in JA with expected date of publish."
+    },
+    {
+        "feature": "support",
+        "tags": [
+            "customization",
+            "paid feature"
+        ],
+        "questions": [
+            "Can I request for a new feature if I could pay for it?",
+            "Can I get a customized feature?"
+        ],
+        "answer": "Mostly it depends on the availability of the developer and how soon you need it. Also if a feature is required within Jira Assistant, then it has to be generic and usable by all the users. Enhancements/requests which are useful only to specific users are generally not addressed."
+    },
+    {
+        "feature": "support",
+        "tags": [
+            "license"
+        ],
+        "questions": [
+            "License conditions are not clear?",
+            "Terms of use is not clear?",
+            "Are we allowed to modify the software?"
+        ],
+        "answer": "Jira Assistant is a open source free software for both Personal and Official use. The source code is available in GitHub. You can even customize the code for use within your company and use it. If you are expecting for any specific use case, please contact the developer."
+    }
+]

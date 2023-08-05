@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Add%20a%20timer%20or%20stopwatch%20to%20track%20working%20on%20a%20ticket%20and%20log%20hours/222</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Support%20BETA%20Testing%20of%20JiraAssistant%20before%20pushing%20the%20extension%20to%20all%20users/221</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/New%20import%20issues%20functionality/219</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Visual%20overlap%20of%20one%20record%20on%20top%20of%20the%20other%20despite%20the%20fact%20that%20there%20is%20a%20gap%20of%201%20minute%20between%20them/218</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Worklog%20Calendar%20cannot%20drag%20and%20drop%20logged%20time%20between%20days/217</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Decimal%20separator%20on%20Excel%20Export/216</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Calendar%20view%20remains%20white%20in%20dark%20theme/215</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/401%20Unauthenticated%20page%20is%20shown%20even%20after%20being%20authenticated%20with%20Jira/214</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Security%20warning%20for%20new%20permission%20and%20extension%20disabled%20in%20Jira%20Assistant%20v2.35%20update/213</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/When%20copying%20issues%20in%20different%20weeks%2C%20defaulting%20the%20date%20to%20today%20is%20unexpected/212</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Date%20picker%3A%20too%20easy%20to%20dismiss%20and%20lose%20changes/211</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Jira%20Assistant%20no%20longer%20opens%20in%20Chrome%20based%20Vivaldi%20Browser/210</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/doesn't%20connect%20using%20Firefox/209</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Import%20from%20cycle%20numbers%20in%20worklog%2C%20don't%20work%20as%20expected/208</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Link%20with%20Gmail%20%E2%80%93%20Google%20flagged%20the%20extension/207</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Log4j%20critical%20vulnerability%20CVE-2021-44228./206</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Spelling%20and%20Grammar%20in%20CONTRIBUTE.md/204</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Allow%20drag'n'drop%20issues%20from%20%22My%20open%20tickets%22%20to%20Calendar%20in%20Dashboard/203</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Unable%20to%20build%20project%3A%20%60npm%20install%60%20fails/202</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Hosted%20web%20version%20of%20jira-assistant/201</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/date%20picker%20not%20properly%20pushed%20down/200</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Custom%20report%20expressions%20are%20not%20processed%20correctly/199</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Worklog%20load%20error%20on%20dashboard%20and%20reports/198</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Getting%20error%20when%20running%20the%20work%20log%20report%20post%20the%20automatic%20upgrade/197</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Unable%20to%20use%20Jira%20Assistant%20after%20v2.32%20upgrade/196</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Improvement%3A%20Worklog%20Report%3A%20Add%20Column%3A%20Parent%20Ticket%20Summary%20/195</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Incompatibility%20with%20multi%20account%20container/194</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Updating%20My%20Open%20Tickets%20Gadget%20does%20not%20update%20pointers%20for%20worklogs%20generated%20from%20the%20gadget./191</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Sometimes%20after%20publishing%20changes%20are%20not%20available%20in%20live/190</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Imported%20worklogs%20are%20calculated%20incorrectly%20in%20Epic%20Summaries%20and%20Time%20Spent%20summaries/189</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Outlook%20calendar%20misses%20some%20meetings/188</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/How%20to%20extract%20worklog%20comments%20across%20tasks/187</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Allow%20all%20sprint%20issues%20in%20Worklog%20Report/186</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Worklog%20import%20incorrectly%20parses%20decimal%20hours/185</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Improvement%3A%20Allow%20to%20define%20default%20time%20period%20for%20worklog%20report/184</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Unknown%20server%3A%20Not%20a%20valid%20jira%20server%20url/183</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/local%20time%20does%20not%20match%20between%20Jira%20Service%20Desk%20and%20Jira%20Assistant/182</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Allow%20Math%20functions%20in%20expressions/181</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Could%20not%20use%20the%20extension%20with%20Google%20chrome/180</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Worklog%20with%20ic%20time/179</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Different%20bookmark%20for%20dashboards/178</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Safari%20support/176</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/HTTP%2F400%20answer%20from%20Jira%20ignored%20while%20creating%20worklog%20entry/175</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Import%20Issues%20doesn't%20work%20when%20you%20are%20an%20administrator%20of%20a%20Project/174</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Can't%20connect%20to%20jira.%20Reinstall%20needed./173</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Can't%20logout%20from%20the%20project%20/172</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Logging%20work%20on%20closed%20issues/171</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Working%20hours%20and%20days%20setting%20has%20no%20effect%20on%20calendar%20view/170</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/The%20%22Worklog%20Report%22%20only%20shows%20the%20worklog%20for%20the%20current%20user/169</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Bug%3A%20Sprint%20not%20appearing%20for%20Custom%20Reports/168</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Wrong%20dates%20are%20displayed%20in%20Work%20log%20for%20%22this%20week%22%20selection%3F/167</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Firefox%20-%20is%20not%20opening%20after%20latest%202.1%20update/166</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/%22Add%20Worklog%22%20Button%20in%20%22Ticketwise%20Worklog%22%20does%20not%20work/165</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Using%20email%20as%20worklogAuthor%20filter%20instead%20of%20UUID/164</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Calendar%20view%20-%20adding%20new%20workload%20eg%20from%2011AM%20to%2002PM%20does%20not%20set%20properly%20staring%20hour%2Fminutes/162</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Calendar%20view%20-%20context%20menu%20(right%20click%20on%20workload)%20-%20add%20%22open%20ticket%22%20to%20open%20releated%20ticket/161</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Closed%20tickets%20can%20be%20logged%20against%20but%20are%20not%20listed/160</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Switch%20Between%20Different%20Report%20Won't%20Refresh/159</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Can't%20change%20value%20of%20filed%20%22Open%20tickets%20JQL%22%20at%20Advanced%20settings/158</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Custom%20report%20improvement%3F/157</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Give%20option%20to%20mark%20all%20notifications%20as%20%22read%22/156</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Unable%20to%20integrate%20with%20Google%20Calendar/155</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Unauthenticated%20in%20less%20than%20a%20day%20though%20I'm%20logged%20in%20Jira%20and%20%22Open%20Jira%20url%22%20is%20unresponsive/154</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/How%20to%20properly%20import%20JIRA%20issues%20with%20labels%20from%20CSV%3F/153</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Import%20Issues%20not%20working%20properly/152</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/I%20tried%20adding%20more%20users%20under%20default%20group%2C%20but%20couldn't%20do%20so/151</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/New%20report%3A%20Status%20wise%20time%20spent%20on%20individual%20issues/150</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Access%20to%20browser%20history/149</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Unable%20to%20add%20new%20users%20to%20a%20group/148</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Report%20Builder%20functionality/147</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Calendar%2FWorklog%20should%20adhere%20to%20time%20display%20settings/146</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Daywise%20worklog%20-%20sum%20total%20hours/145</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/My%20Open%20Tickets%20-%20error%20from%20Jira%20response/144</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Allow%20the%20Worklog%20report%20(and%20user%20group)%20to%20add%20inactive%20users/143</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Add%20Work%20Log%20comment%20as%20a%20%22Comment%22%20not%20as%20%22Work%20Log%22/142</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Worklog%20not%20showing%20the%20efforts%20for%20the%20user%20after%20re-installing%20the%20JA%200.97/141</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Unable%20to%20connect%20to%20server.%20Please%20check%20your%20network%20connectivity.-%20Network%20error/140</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Firefox%20Add%20On%20is%20not%20available/139</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Change%20columns%20in%20%22my%20open%20tickets%22/138</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Incomplete%20worklog%20details%20%20Please%20provide%20value%20for%20all%20the%20mandatory%20fields/137</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/no%20data%20showing%20(2)/136</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Import%20issue%2C%20custom%20field%20of%20type%20Select%20List%20(single%20choice)/134</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Network%20error%3A%20Continuously%20getting%20this%20error%20even%20if%20connect%20to%20network%20/133</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Cannot%20see%20worklogs%20on%20calendar/132</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Error%20opening%20the%20Worklog%20Report/130</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Unable%20to%20integrate%20to%20Jira%20Assistant/129</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Google%20chrome%20has%20the%20same%20Data%20loading%20and%20no%20data%20issue%20/128</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Endless%20loading%20after%200.95%20Update/127</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/No%20data%20showing/126</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Worklog%20Report%20Hours%20showing%20incorrectly%20after%20latest%20update/125</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Google%20Drive%20Read%20%2F%20Change%20permission%20%3F%3F/124</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/When%20integrate%20Jira%20server%20with%20JIRA%20ASSISTANT%20it%20says%20one%20or%20more%20of%20the%20actions%20failed/123</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Missing%20documentation%3A%20How%20to%20build%20for%20Chrome/122</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/0.94%20cannot%20login/121</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/0.94%20fix%20for%20user%20names%20does%20not%20work%20for%20reports/120</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Stop%20working%20after%20Jira%20Cloud's%20API%20was%20updated%20/119</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Nothing%20gets%20displayed%20in%20the%20tab/118</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Cannot%20log%20work%20correctly%20on%20Jira%20server%20v8.3.3/117</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Today%20the%20extension%20is%20not%20opening./115</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Unable%20to%20get%20id%20of%20Parent%20issue%20of%20a%20Subtask.%20Selecting%20option%20%22Parent%22%20is%20not%20supported./114</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Jira%20Assistant%20not%20available%20in%20Firefox%20addon%20store/113</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/AM%20and%20PM%20is%20not%20considering/112</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/(Add%20Worklog%20screen)%20Show%20issue%20key%20title%20after%20having%20searched%20for%20%26%20selected%20it/111</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Issue%20key%20text%20shown%20twice%20when%20searching%20for%20issue%20while%20adding%20worklog/110</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Ability%20to%20set%20default%20value%20for%20'Override%20Time%20Spent'%20field%20when%20adding%20Worklog/109</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Update%20layout%20of%20Worklog%20entry%20and%20tab%20order/108</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Worklog%20fails%20for%20users%20with%20apostrophe%20in%20email%2FJira%20username/107</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Worklog%20Report%20doesn't%20work%20on%20Brave%20when%20you%20delete%20Default%20User%20group/106</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Create%20a%20new%20settings%20page%20%2F%20tab%20to%20control%20internal%20application%20settings/105</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Error%20fetching%20ticket%20detail%20'status'%20do%20not%20contains%20'closed'%20/104</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Extensions%20does%20not%20work%20with%20activated%20MultiAccount%20Containers%20and%20Temporary%20Containers/103</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Add%20%22Only%20viewable%20by%22%20option%20to%20worklog%20comments/102</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Could%20not%20select%20using%20calender%20when%20adding%20worklog./101</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Update%20Worklog%20entry%20to%20have%20option%20to%20look%20up%20issues%20not%20assigned%20to%20me/100</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Update%20Calendar%2FWorklogs%20Week%20view%20to%20be%20able%20to%20add%20worklog%20outside%20of%20working%20hours/99</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Update%20Calendar%2FWorklogs%20Week%20View%20to%20use%20row%20banding/98</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/no%20vertical%20scrolling%20in%20calendar%2Fworklogs/97</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/%5BRequest%5D%20Display%20total%20worked%20log%20without%20clicking/96</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/WorkLog%20report%20to%20not%20display%20non%20working%20days/95</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/%22This%20Week%22%2F%20%22Last%20Week%22%20should%20start%20the%20week%20from%20the%20user%20setting/94</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Range%20select%20in%20Daywise%20Worklog%20error/93</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Security%20of%20Jira%20Assistant/92</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Feature%20Request%3A%20Re-order%20users%20in%20user-groups%20or%20sort%20by%20alphabetical%20order/91</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Custom%20Single%20Select%20Fields%20are%20not%20being%20recognized%20in%20Custom%20Reports/90</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Feature%20Request%3A%20Dark%20Mode/89</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Beta%20version%20-%20Max%20hours%20to%20log%20can't%20be%20set%20/88</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Option%20to%20add%20worklog%20on%20a%20particular%20ticket%20for%20a%20day%20from%20Worklog%20report/87</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Log%20time%20field%20can't%20be%20edited%20by%20typing%20in%20BETA/86</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Export%20to%20CSV%20not%20available%20in%20BETA/85</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Existing%20Custom%20Report%20fails%20to%20run%20in%20Beta/84</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Issuetype%20wise%20monthly%20worklog%20report/83</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/%5BCFF%5D%20add%20planning%20feature%20project%20management%2C%20gantt%20chart/80</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Rewrite%20entire%20application%20in%20React%20to%20gain%20performance%20and%20reduce%20bundle%20size/79</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Issue%20linking%20on%20custom%20report%20(widget)/78</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Add%20%22Components%22%20field%20to%20worklog/77</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Add%20an%20option%20to%20get%20either%20ticket%20number%20or%20summary%20/76</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Allow%20import%20cvs%20worklog/75</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/User%20Day%20wise%20Timezone%20Issue/74</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/The%20value%20'closed'%20does%20not%20exist%20for%20the%20field%20status/73</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Snap%20to%20quarters%20of%20the%20hour%20when%20moving%20blocks%20on%20calendar/72</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Collaborators/71</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/this%20doesn't%20seem%20to%20be%20pulling%20worklog%20times%20anymore/70</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Multijira/69</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Publish%20unminified%20source%20code%20instead%20of%20CRX%2FXPI%20bundles/68</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Sync%20extension%20settings%20between%20browsers/67</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Enable%20to%20integrate%20my%20jira%20on%20chrome%20whereas%20i%20manage%20on%20vivaldi%20on%20the%20same%20pc/66</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Actual%20time%20spent%20not%20populating/65</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Unable%20to%20add%20users%20to%20the%20group/64</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Specify%20calendar%20to%20synchronize%20in%20google%20calendar%20sync./63</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Worklog%20missing%20issue%20data%20when%20the%20author%20field%20is%20malformed/62</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Weekly%20and%20%20monthly%20views%20show%20different%20values/61</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/custom%20report%20%2F%20format%20function%3A%20no%20%22Get%20name%20value%22%20for%20customfield/60</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Create%20report%20for%20logged%20time%20by%20project/59</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/New%20feature%3A%20Allow%20selecting%20the%20current%20Active%20Sprint%20time%20range%20in%20the%20Worklog%20date%20range%20menu/58</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Jira%20assistant%20errors%20out%20when%20account%20name%20has%20an%20apostrophe%20in%20it/57</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Daywise%2Fticketwise%20worklog%20gadgets%20stopped%20working/56</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Display%20Time%20format%20not%20applied%20in%20the%20Calendar%20%2F%20Worklogs%20View/55</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Being%20able%20to%20configure%2Fdisable%20maximum%20required%20comment%20length%20when%20logging%20work/54</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Logged%20work%20-%20user%20daywise%20-%20pulls%20in%20work%20from%20all%20Jira%20Projects%2C%20/53</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/update%20jira%20url%20after%20initial%20setup/52</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Add%20custom%20column%20in%20Worklog%20%5BUser%20-%20Daywise%5D%20Report%3F/51</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/My%20open%20tickets%3A%20show%20tickets%20where%20i%20am%20%22implementer%22%20too/50</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Ability%20to%20download%20%20worklog%20reports%20as%20PDF/49</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/All%20the%20tables%20in%20the%20tool%20should%20be%20properly%20scrollable%20with%20static%20headers/48</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Wrong%20worklog%20aggregation/47</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Allow%20Logged%20Work%20-%20%5BUser%20-%20Day%20wise%5D%20to%20be%20added%20to%20the%20dashboard/46</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/JIRA%20Assistant%20not%20loading/45</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/New%20Logo%20Suggestion/44</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Jira%20Assistant%20add-on%20not%20found%20in%20firefox%20marketplace/43</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Tracked%20time%20being%20overridden/42</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/New%20report%20builder%20which%20will%20allow%20the%20user%20to%20develop%20their%20own%20report%20with%20lots%20of%20customizations/41</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/create%20new%20issues%20based%20on%20templates/40</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/priority%20sorting%20broken%20(dashboard-%3Emy%20open%20tickets)/39</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Add%20licence%20agreement%20in%20the%20extension%20to%20prevent%20any%20misuse%20or%20for%20the%20end%20user%20to%20know%20what%20they%20get%20and%20what%20they%20are%20restricted%20with/38</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Cannot%20Create%20WorkLog%20For%20Closed%20Tickets%20-%20But%20Can%20Enter%20Time%20Directly%20in%20JIRA/37</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Jira%20assistant%20for%20Firefox%20not%20existing/36</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/New%20Gadget%3A%20Jira-Filter/35</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Grouping%20not%20working%20for%20Custom%20Report%20on%20UI%20Beta/34</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/New%20Feature%3A%20Colour%20worklogs%20based%20on%20min%20hours%20instead%20of%20max%20hours/33</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/New%20Feature%3A%20Ability%20to%20filter%20Logged%20Work%20report%20against%20a%20JQL%20(list%20of%20issues)%20over%20a%20time%20period/32</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Daywise%20worklog%20dates%20are%20always%20one%20day%20in%20arrears/31</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/%22My%20open%20tickets%22%20gadget%20shows%20closed%20JIRA%20issues/30</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Advanced%20Filter%20(JQL)%20Empty/29</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/New%20gadget%3A%20Sprint%20burndown%20chart/28</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/New%20feature%3A%20Sprint%20velocity%20calculator%20%2F%20chart/27</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/New%20feature%3A%20Holiday%20importer%20%2F%20API%20module/26</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Import%20Existing%20Worked%20Logged/25</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Add%20Copy%20WorkLog/24</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Add%20Recurring%20WorkLog/23</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Screen%20stuck%20on%20Loading.....Please%20wait%20screen.%20/22</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Additional%20option%20to%20store%20Jira%20user%20credentials%20in%20this%20tool%20and%20automatically%20authenticate%20if%20the%20user%20is%20not%20already%20authenticated%20in%20Jira./21</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Firefox%20version%20of%20extension%20was%20disabled%20after%20the%20latest%20release%20of%20Firefox/20</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Add%20minutes%20part%20in%20%22Max%20hours%20to%20log%22%20setting%20inside%20Settings%20-%3E%20General%20-%3E%20Worklog%20tab/19</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Some%20time%20Integrate%20option%20does%20not%20work%20or%20Save%20functionality%20stops%20working/18</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Add%20custom%20format%20function%20option%20in%20custom%20report/17</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Comments%20related%20notifications%20from%20Jira%20to%20be%20added%20in%20tool/16</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/now%20user%20day%20wise%20report%20takes%20only%20100%20tickets%20though%20actual%20things%20are%20more..%20Is%20it%20possible%20to%20fetch%20all%20available%20records%20from%20JIRA%20/15</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Notification%20for%20worklog%20and%20calendar%20doesn't%20work%20for%20some%20of%20the%20users/14</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Image%20export%20functionality%20need%20to%20be%20implemented%20in%20latest%20UI/13</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Outlook%20calendar%20integration%20with%20tool%20for%20meetings/12</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/JIRA%20calendar%20integration%20with%20tool/11</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Enhance%20the%20favicon%20%2F%20menu%20icon%20and%20all%20other%20icons%20%2F%20images%20in%20the%20tool/10</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Reports%20%3A%20Need%20ability%20to%20set%20different%20timezone%20for%20individual%20users%20or%20group/9</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Need%20ability%20to%20save%20the%20selected%20date%20range%20in%20User%20-%20daywise%20report/8</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Provide%20option%20to%20directly%20change%20the%20status%20of%20an%20issue%20from%20the%20tool/7</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Need%20option%20to%20view%20user%20daywise%20report%20based%20on%20sprint%20along%20with%20date%20range/6</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Need%20option%20to%20configure%20display%20fields%20in%20user%20daywise%20report/5</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Need%20option%20to%20filter%20data%20in%20User%20daywise%20report%20so%20that%20only%20required%20data%20can%20be%20retrived/4</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Uploaded%20worklog%20should%20not%20be%20locally%20tracked/3</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Gadgets%20other%20than%20reports%20doesn't%20consider%20worklogs%20added%20directly%20in%20Jira%20Server/2</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/issue-tracker/Worklog%20goes%20out%20of%20sync/1</loc>
+  <lastmod>2022-08-02T05:18:31.047Z</lastmod>
+  <priority>0.70</priority>
+</url>
+</urlset>

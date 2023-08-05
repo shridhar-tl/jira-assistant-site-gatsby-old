@@ -1,0 +1,55 @@
+[
+    {
+        "title": "Dashboard",
+        "description": [
+            "In tabbed layout view, control buttons does not get displayed",
+            {
+                "id": 16,
+                "text": "Changes in comments doesn't get displayed in notifications"
+            },
+            {
+                "id": 39,
+                "text": "Sorting does not work well for Jira list types like Status, Priority, Resolution, etc.."
+            }
+        ]
+    },
+    {
+        "title": "Calendar",
+        "description": [
+            {
+                "id": 63,
+                "text": "With calendar integration, always default calendar is chosen to sync and no option available to select from the available calendars"
+            },
+            {
+                "id": 96,
+                "text": "In month view, when there are multiple entries for a particular day, then calendar doesn't display total worklogs on top and hence user should click to see the total hours logged"
+            }
+        ]
+    },
+    {
+        "title": "Worklog report",
+        "description": [
+            {
+                "id": 87,
+                "text": "When worklog is added from worklog report, the report doesn't gets updated with new additions until the report is refreshed"
+            }
+        ]
+    },
+    {
+        "title": "General",
+        "description": [
+            {
+                "id": 67,
+                "text": "Extension settings doesn't get synced anywhere and hence in case of re-installation, user should redo all the settings"
+            },
+            "In some of the browsers, first time integration popup is not displayed anymore due to latest permission related restriction in Web Store"
+        ]
+    },
+    {
+        "title": "Report Builder",
+        "description": [
+            "Proper documentation is not available for Report Builder making it complex for uses to use it",
+            "After recent change in review process, web store is not allowing some permissions, which doesn't let the user to use custom user functions anymore"
+        ]
+    }
+]

@@ -1,0 +1,967 @@
+{
+    "timestamp": 1689906375081,
+    "live_versions": {
+        "chrome": 2.51,
+        "firefox": 2.51,
+        "edge": 2.49,
+        "opera": 2.49,
+        "plugin": 2.51
+    },
+    "updates_info": [
+        {
+            "version": 2.51,
+            "isBeta": true,
+            "date": 1689906375081,
+            "publishDate": 1689824700000,
+            "expectedOn": 1689834600000,
+            "whatsnew": [
+                "Custom report: Worklog time spent formatting modified to fit exporting",
+				"Bug Fix: Worklog report sprint wise report not loading with oAuth",
+				"Disabled formatting of worklog hours spent in custom report to support",
+                {
+                    "id": 308,
+                    "text": "Users under group not being imported for Data center version of Jira"
+                },
+                {
+                    "id": 305,
+                    "text": "Worklog report: Custom columns not loading for Data center version of Jira"
+                },
+                {
+                    "id": 301,
+                    "text": "Worklog report: Sorting of users and tickets done based on first worklog date"
+                },
+                {
+                    "id": 301,
+                    "text": "Worklog report: Added additional tab for ticket day wise worklog reporting"
+                },
+                {
+                    "id": 290,
+                    "text": "Import worklog doesn't work"
+                }
+            ],
+            "bugs": []
+        },
+        {
+            "version": 2.49,
+            "isBeta": true,
+            "date": 1684901009477,
+            "publishDate": 1684901009477,
+            "expectedOn": 1685084400000,
+            "whatsnew": [
+                "Added additional range option in Date range picker",
+                "Workaround fix for options menu in integrate popup hiding immediately once shown in firefox",
+                {
+                    "id": 301,
+                    "text": "Worklog report - Added Issue Age as custom column"
+                },
+                {
+                    "id": 301,
+                    "text": "Worklog report - Grouped tab - Added option to expand issues by default based on settings"
+                },
+                {
+                    "id": 300,
+                    "text": "Fixed issue for Timer controls not adding to board"
+                },
+                {
+                    "id": 298,
+                    "text": "Resolve minor issue with worklog timer entries and rounding"
+                },
+                {
+                    "id": 296,
+                    "text": "Date format issue resolved for month view in calendar"
+                },
+                {
+                    "id": 293,
+                    "text": "Option added to adjust remaining estimate from add worklog popup"
+                },
+                {
+                    "id": 292,
+                    "text": "Moved expanding of event height behind a settings so that event overlapping is controlled based on user choice"
+                },
+                {
+                    "id": 291,
+                    "text": "Worklog Report: Added support to include one or more custom columns in worklog report"
+                },
+                {
+                    "id": 289,
+                    "text": "Added zoom in and zoom out button and increased the minimum event height so that small events are still readable"
+                },
+                {
+                    "id": 287,
+                    "text": "Saving flat table settings while column selections or grouping is changed"
+                },
+                {
+                    "id": 286,
+                    "text": "Added assignee column to pending worklog gadget"
+                },
+                {
+                    "id": 284,
+                    "text": "Added settings to hide non working days in worklog calendar"
+                },
+                {
+                    "id": 283,
+                    "text": "Worklog Report: Estimation related text wrapping issue resolved and maintaining user expanded state on refresh"
+                },
+                {
+                    "id": 283,
+                    "text": "BugFix: Estimation related text wrapping issue resolved in worklog report"
+                },
+                {
+                    "id": 282,
+                    "text": "BugFix: Exported excel being corrupted due to custom implementation of encoding"
+                }
+            ],
+            "bugs": [
+                "Worklog Calendar: If more than 2 worklogs are deleted, then context menu does not show up properly until the page is refreshed",
+				"Bug Fix: Worklog report sprint wise report not loading with oAuth",
+                {
+                    "id": 290,
+                    "text": "Import worklog doesn't work"
+                }
+            ]
+        },
+        {
+            "version": 2.48,
+            "isBeta": false,
+            "date": 1676815358880,
+            "publishDate": 1677317390638,
+            "expectedOn": 1677688200000,
+            "whatsnew": [
+                "Added additional range option in Date range picker",
+                "New Worklog report: Minor fixes in showing cost for tickets under cost view",
+                "Outlook calendar integration enabled for Jira Cloud app",
+                "Minor style fixes all over Jira Cloud App",
+                {
+                    "id": 280,
+                    "text": "BugFix: Export settings/report fails when Jira fields with non ASCII chars are used"
+                },
+                {
+                    "id": 280,
+                    "text": "BugFix: Deleting of reports broken due to major refactoring in previous release"
+                },
+                {
+                    "id": 278,
+                    "text": "Implemented support for adding New Worklog Report as gadget in JA dashboard"
+                },
+                {
+                    "id": 277,
+                    "text": "BugFix: Team managed sprint boards not being pulled in dropdowns for reports"
+                },
+                {
+                    "id": 270,
+                    "text": "BugFix: Showing report name in tabbed view when it is added as custom gadget to dashboard"
+                },
+                {
+                    "id": 268,
+                    "text": "BugFix: Launching API url instead of profile url when clicking on user in groups"
+                },
+                {
+                    "id": 267,
+                    "text": "BugFix: Fixed border color issue with Dark theme for Firefox browser"
+                },
+                {
+                    "id": 266,
+                    "text": "BugFix: Date format issue with Calendar resolved"
+                },
+                {
+                    "id": 265,
+                    "text": "Added option to navigate to current week from calendar top controls"
+                },
+                {
+                    "id": 263,
+                    "text": "Added ticket summary in calendar event based on configuration"
+                },
+                {
+                    "id": 254,
+                    "text": "BugFix: New worklog report not showing data for some users, when using Jira data center. Duplicates #253 & #283"
+                }
+            ],
+            "bugs": []
+        },
+        {
+            "version": 2.47,
+            "isBeta": false,
+            "date": 1673757000000,
+            "publishDate": 1673757000000,
+            "expectedOn": 1673951400000,
+            "whatsnew": [
+                "Minor fixes in poker module to join room even if extension is not installed",
+                {
+                    "id": 262,
+                    "text": "BugFix: For data center edition of Jira, worklog does not get uploaded due to mis configuration"
+                }
+            ],
+            "bugs": []
+        },
+        {
+            "version": 2.46,
+            "isBeta": true,
+            "date": 1673240400000,
+            "publishDate": 1673240400000,
+            "expectedOn": 1673499600000,
+            "whatsnew": [
+                "Added timezone check while loading Jira Assistant",
+                "BugFix: Scrollbar missing in some of the modules including User Groups",
+                {
+                    "id": 261,
+                    "text": "Worklog Report: Added Summary tab in new worklog report"
+                },
+                {
+                    "id": 95,
+                    "text": "Worklog Report: Provided option to hide non working days or any days without worklog"
+                }
+            ],
+            "bugs": []
+        },
+        {
+            "version": 2.45,
+            "isBeta": true,
+            "date": 1673240400000,
+            "publishDate": 1673240400000,
+            "expectedOn": 1673499600000,
+            "whatsnew": [
+                "Worklog Report: Minor bug fixes and improvements in UI",
+                "Worklog Report: Added new charts in Visualization tab",
+                "New Gadget: Worklog Bar Chart gadget",
+                "BugFix: Sprint time frame view in new Worklog report not working due to scopes issue when using oAuth with Jira",
+                {
+                    "id": 256,
+                    "text": "Custom report: Added support for using sub expressions"
+                },
+                {
+                    "id": 250,
+                    "text": "BugFix: Epic field not shown in Sprint time frame view of new Worklog report"
+                },
+                {
+                    "id": 249,
+                    "text": "Started using suggestion JQL in new issue picker"
+                },
+                {
+                    "id": 95,
+                    "text": "Worklog Report: Provided option to hide non working days or any days without worklog"
+                }
+            ],
+            "bugs": [
+                "Scrollbars missing in some of the modules including User Groups",
+                {
+                    "id": 262,
+                    "text": "For Datacenter edition of Jira, worklog does not get uploaded due to mis configuration"
+                }
+            ]
+        },
+        {
+            "version": 2.44,
+            "isBeta": true,
+            "date": 1672335000000,
+            "publishDate": 1672461000000,
+            "expectedOn": 1672637100000,
+            "whatsnew": [
+                "New Jira App: Jira Assistant can now be installed as Jira Cloud App as well within Jira",
+                "Major refactoring of code to support migrations and customizations",
+                "New worklog report: Minor bug fixes in filtering of worklog based on sprint",
+                {
+                    "id": 248,
+                    "text": "TypoFix: Typo error resolved in poker module"
+                },
+                {
+                    "id": 244,
+                    "text": "BugFix: Added date filter while pulling worklogs. This should solve #242 as well"
+                },
+                {
+                    "id": 241,
+                    "text": "Added upload icon for individual worklogs to identify and upload local worklogs"
+                },
+                {
+                    "id": 238,
+                    "text": "BugFix: Fixed broken import settings module"
+                },
+                {
+                    "id": 230,
+                    "text": "BugFix: Now issue picker can lookup for any issue"
+                },
+                {
+                    "id": 223,
+                    "text": "BugFix: Fixed broken dark theme for context menu"
+                },
+                {
+                    "id": 215,
+                    "text": "Bug Fix: Fixes for dark skin in calendar and other modules"
+                },
+                {
+                    "id": 175,
+                    "text": "BugFix: Error from Jira while uploading worklog is properly displayed"
+                },
+                {
+                    "id": 111,
+                    "text": "Add worklog screen: Started showing issue title once the issue is selected from picker"
+                },
+                {
+                    "id": 109,
+                    "text": "Add worklog screen: Can now configure default time spent from General settings -> Worklog tab"
+                },
+                {
+                    "id": 100,
+                    "text": "Add worklog screen: Worklog picker can lookup for any issue"
+                },
+                {
+                    "id": 99,
+                    "text": "Worklog calendar: Support to toggle time grid between full day or working hours view"
+                },
+                {
+                    "id": 98,
+                    "text": "Worklog calendar: Support for alternate row color in time grid"
+                },
+                {
+                    "id": 72,
+                    "text": "Worklog calendar: While drag and drop, now the worklog entries would snap to closest grid"
+                }
+            ],
+            "bugs": []
+        },
+        {
+            "version": 2.43,
+            "isBeta": false,
+            "date": 1670076368444,
+            "publishDate": 1670819400000,
+            "expectedOn": 1670819400000,
+            "whatsnew": [
+                "Added settings to configure min hours to log which would be used by all reports",
+                "New worklog report: Supports one or more sprint selection, auto worklog group generation, filtering worklogs with created date, multiple new formatting options, etc",
+                {
+                    "id": 245,
+                    "text": "Bug Fix: Only top 50 agile boards & sprints were pulled earlier"
+                }
+            ],
+            "bugs": []
+        },
+        {
+            "version": 2.42,
+            "isBeta": false,
+            "date": 1667798207020,
+            "publishDate": 1667798207020,
+            "expectedOn": 1668400200000,
+            "whatsnew": [
+                {
+                    "id": 230,
+                    "text": "Implemented new Planning Poker feature as a first step towards collaboration"
+                },
+                "Added support for user id and password based authentication for Jira",
+                "Improved some of the error messages",
+                "Bug Fix: Dark theme not applied for Import issues module",
+                "Minor refactoring and upgraded dependencies",
+                "Minor enhancements done on Report Builder module and minimal documentation added in web site under features"
+            ],
+            "bugs": []
+        },
+        {
+            "version": 2.41,
+            "isBeta": false,
+            "date": 1659676413052,
+            "publishDate": 1660581000000,
+            "expectedOn": 1660840200000,
+            "whatsnew": [
+                "Added Jira integration support for extension from within Web",
+                "While integrating, added support to auto try origin url when Jira Api is not reachable via provided url",
+                "Added support to import and export groups from User Groups page",
+                "Intimate user when new version of Jira Assistant is available for download",
+                "Improved some of the error messages",
+                {
+                    "id": 222,
+                    "text": "Added timer support for time tracking and generating worklog automatically"
+                },
+                {
+                    "id": 67,
+                    "text": "Implemented import backup functionality for settings from Integrate page and header"
+                },
+                {
+                    "id": 52,
+                    "text": "Added Advanced Settings page as extension options page. Hence Jira url can be changed if old url is unavailable"
+                },
+                {
+                    "id": 12,
+                    "text": "Resolved integration issue with outlook calendar"
+                }
+            ],
+            "bugs": [
+                "#222 - For worklog timer, pause / resume on system lock / idle does not work reliably due to browser limitations"
+            ]
+        },
+        {
+            "version": 2.39,
+            "isBeta": false,
+            "date": 1659545044898,
+            "publishDate": 1659545044898,
+            "expectedOn": 1659545044898,
+            "whatsnew": [
+                "Removed old Import issues module",
+                "Bug fixes: Formatting issue with time spent fields in Worklog Report - Flat table",
+                "Major refactoring and package bundle size reduction",
+                "Edge manifest version upgraded to v3",
+                "Upgraded to latest GA4 and improvised error reporting",
+                {
+                    "id": 221,
+                    "text": "Implemented OAuth2 support for authenticating with Cloud version of Jira"
+                },
+                {
+                    "id": 67,
+                    "text": "Implemented export / backup functionality for settings"
+                }
+            ],
+            "bugs": [
+                "Backup functionality is implemented, but still import functionality is non functional"
+            ]
+        },
+        {
+            "version": 2.38,
+            "isBeta": true,
+            "date": 1658844524719,
+            "publishDate": 1658768400000,
+            "expectedOn": 1658891640000,
+            "whatsnew": [
+                "Complete rewrite of Import issues module with more new features like option to clone, delete and inline editing of issues",
+                "Added Chat Bot in website and Contact us page of extension",
+                "Removed FAQ module from extension as it is not used much. Use chatbot from from website instead",
+                {
+                    "id": 221,
+                    "text": "Web version of Jira Assistant published to support beta testing of upcoming features"
+                },
+                {
+                    "id": 217,
+                    "text": "Bug Fix: Issue with drag and drop worklog in Month view fixed"
+                },
+                {
+                    "id": 209,
+                    "text": "Bug Fix: Integration issue with Firefox due to wrong service injection"
+                }
+            ],
+            "bugs": [
+                "New installations were unable to integrate with Jira"
+            ]
+        },
+        {
+            "version": 2.37,
+            "isBeta": false,
+            "date": 1655094600000,
+            "publishDate": 1655137800000,
+            "expectedOn": 1655267400000,
+            "whatsnew": [
+                {
+                    "id": 214,
+                    "text": "Bug Fix: Some times 401 Unauthorized error page is shown even if the user is authenticated with Jira"
+                },
+                {
+                    "id": 213,
+                    "text": "Bug Fix: Unnecessary security warning due to host permissions in chrome"
+                }
+            ]
+        },
+        {
+            "version": 2.36,
+            "isBeta": false,
+            "date": 1654707600000,
+            "publishDate": 1654707600000,
+            "expectedOn": 1654864200000,
+            "whatsnew": [
+                "Bug fix: Unable to Create new group under user groups",
+                {
+                    "id": 195,
+                    "text": "Worklog report: Added settings to show Reporter as an optional field"
+                }
+            ],
+            "bugs": []
+        },
+        {
+            "version": 2.35,
+            "isBeta": true,
+            "date": 1654671260161,
+            "publishDate": 1654671260161,
+            "expectedOn": 1654837200000,
+            "whatsnew": [
+                "Added support for linking Jira Groups in JA for viewing reports",
+                "Web Store upgrade: Upgraded to manifest v3 for better security",
+                "Bug fix: colspan issue with groupable grid resolved",
+                "Bug fix: Worklog Calendar - Text overflow issue and uploaded event duplication issue while moving",
+                {
+                    "id": 208,
+                    "text": "Bugfix: Issue with timespent field in worklog import resolved"
+                },
+                {
+                    "id": 200,
+                    "text": "Bugfix: Alignment issue with small window resolved"
+                },
+                {
+                    "id": 199,
+                    "text": "Custom Report: Minimal documentation added to tool, improvements done in parsing expressions, Added additional setting to hide a field from display so that it can only be used from expression of other fields."
+                },
+                {
+                    "id": 195,
+                    "text": "Worklog report: Added settings to show various optional fields like Project Name, Parent ticket summary, Epic Number, Issuetype, Assignee in grouped view"
+                },
+                {
+                    "id": 189,
+                    "text": "Bugfix: Multiple worklog import for same issue does not update timespent field"
+                }
+            ],
+            "bugs": [
+                "Unable to Create new group under user groups."
+            ]
+        },
+        {
+            "version": 2.34,
+            "isBeta": true,
+            "date": 1654101000000,
+            "publishDate": 1654101000000,
+            "expectedOn": 1654223400000,
+            "whatsnew": [
+                "Added additional views in calendar. Now list view is supported for worklogs and meetings in calendar",
+                "Added support for user wise daily cost view in worklog report",
+                "Bug fix: Menu action selection in settings page not working as expected",
+                "Bug fix: Removed duplicate refresh button from calendar page",
+                "Bug fix: Dashboard icon continues to look modified even after cancelling the edit operation",
+                "Major dependency upgrades"
+            ],
+            "bugs": [
+                "Already imported worklogs sometimes shows duplicate entry while dragging and dropping in Worklog Calendar until page is refreshed.",
+                "Visibility issues with Dark theme",
+                "Worklog Calendar: Drag and drop worklog in month view fails with and error"
+            ]
+        },
+        {
+            "version": 2.33,
+            "isBeta": false,
+            "date": 1633579815630,
+            "publishDate": 1633579815630,
+            "expectedOn": 1633890600000,
+            "whatsnew": [
+                {
+                    "id": 196,
+                    "text": "Bugfix: JS error due to unavailability of working hours settings"
+                },
+                {
+                    "id": 170,
+                    "text": "Bugfix: Added support for configuring displayed hours and working hours separately"
+                }
+            ],
+            "bugs": []
+        },
+        {
+            "version": 2.32,
+            "isBeta": false,
+            "date": 1632977430474,
+            "publishDate": 1632977430474,
+            "expectedOn": 1633285800000,
+            "whatsnew": [
+                "Storage related major code refactoring to support upcoming features",
+                {
+                    "id": 191,
+                    "text": "Bugfix: My open ticket logs work in different ticket when the item is not refreshed properly"
+                },
+                {
+                    "id": 188,
+                    "text": "Outlook Calendar bug fixes: All events are not pulled by calendar"
+                },
+                {
+                    "id": 89,
+                    "text": "Dark theme contributed by one of the user"
+                }
+            ],
+            "bugs": [
+                "For some users worklog report / dashboard does not load. Workaround is to change the 'Working days' setting from 'General' settings page once."
+            ]
+        },
+        {
+            "version": 2.31,
+            "isBeta": false,
+            "date": 1620554079439,
+            "publishDate": 1620492000000,
+            "expectedOn": 1620585000000,
+            "whatsnew": [
+                "Custom Report: Added support to change display text of column headers.",
+                "Custom Report: Added more grouping options for string fields.",
+                {
+                    "id": 181,
+                    "text": "Custom Report: Added support for Math functions in expressions."
+                },
+                {
+                    "id": 185,
+                    "text": "Import worklog bug fix: Decimal of 0.5 considered as 30 mins which was considered as 5 mins earlier."
+                }
+            ],
+            "bugs": []
+        },
+        {
+            "version": 2.3,
+            "isBeta": false,
+            "date": 1602564257472,
+            "publishDate": 1602564257472,
+            "expectedOn": 1602650657472,
+            "whatsnew": [
+                "Fixed: Sprint is not displayed for Self hosted version of Jira.",
+                "Implemented: Custom report: Option to use Expressions for formatting a field.",
+                "Removed: Old Custom Report from menu. Accessing with direct Url will continue to work."
+            ],
+            "bugs": [
+                "Known issue: Custom Report: Multiline expressions doesn't work."
+            ]
+        },
+        {
+            "version": 2.2,
+            "isBeta": false,
+            "date": 1601008152331,
+            "publishDate": 1601008152331,
+            "expectedOn": 1601008152331,
+            "whatsnew": [
+                "Fixed: Option columns and some of the custom fields not displaying value properly.",
+                "Fixed: Votes and Watches showing unnecessary 0.",
+                "Fixed: Workratio column showing -1s.",
+                "Fixed: Loader keeps loading on error fetching data.",
+                "Fixed: Network error message shown for some users.",
+                "Implemented: Custom report: Toggle groups in gadget view for better experience.",
+                "Implemented: Custom report: Badge added to show how many columns are visible.",
+                "Implemented: Custom report: Rearranging of display fields by drag and drop."
+            ],
+            "bugs": [
+                "Known issue: Custom Report: Rearranging of display fields not working as expected.",
+                "Known issue: Minor UI issues with group by fields list when width is more that available width. This has more impact when Custom Report with grouping is added as gadget with half width on screen.",
+                "Known issue: Minor UI issues when too many columns are added to custom report and trying to use show / hide option from Grid."
+            ]
+        },
+        {
+            "version": 2.1,
+            "isBeta": true,
+            "date": 1600875300000,
+            "publishDate": 1600875300000,
+            "expectedOn": 1600875300000,
+            "whatsnew": [
+                "Fixed: Error adding Custom Report as gadget in Dashboard."
+            ]
+        },
+        {
+            "version": 2.0,
+            "isBeta": true,
+            "date": 1600831410474,
+            "publishDate": 1600831410474,
+            "expectedOn": 1600831410474,
+            "whatsnew": [
+                {
+                    "id": 165,
+                    "text": "Fixed: Ticket wise Worklog gadget- Add and Upload worklog functionality not working. Selected date range not retained."
+                },
+                "Implemented column grouping for Log work field in new Custom report.",
+                "Turned on Google Analytics by default. This can still be turned off from advanced settings page."
+            ]
+        },
+        {
+            "version": 1.9,
+            "isBeta": true,
+            "date": 1600794614644,
+            "publishDate": 1600794614644,
+            "expectedOn": 1600794614644,
+            "whatsnew": [
+                {
+                    "id": 157,
+                    "text": "New enhanced version of custom report is built from scratch."
+                },
+                {
+                    "id": 159,
+                    "text": "Fixed: Advanced report in different dashboards doesn't refresh when switching directly between dashboards."
+                },
+                {
+                    "id": 164,
+                    "text": "Fixed: Pulling of worklog details done based on currentUser() function in JQL instead of user email id."
+                },
+                "Unwanted columns removed from My Reports Gadget.",
+                "Minor grouping related issues resolved in Status wise time spent gadget.",
+                "Fixed: Showing unloaded image when iconUrl is not sent from Jira."
+            ]
+        },
+        {
+            "version": 1.8,
+            "isBeta": false,
+            "date": 1598283600000,
+            "publishDate": 1598283600000,
+            "expectedOn": 1598466600000,
+            "whatsnew": [
+                {
+                    "id": 157,
+                    "text": "Added worklog and bookmark options on ticket number field in Custom report"
+                },
+                {
+                    "id": 161,
+                    "text": "Added \"Open ticket\" menu in worklog context menu of calendar"
+                },
+                "Added worklog and bookmark options for ticket number columns in Status wise time spent gadget"
+            ]
+        },
+        {
+            "version": 1.7,
+            "isBeta": false,
+            "date": 1593801000000,
+            "publishDate": 1593801000000,
+            "expectedOn": 1593801000000,
+            "whatsnew": [
+                {
+                    "id": 78,
+                    "text": "Issue key in custom report is linked to Jira issue similar to other gadgets"
+                },
+                {
+                    "id": 153,
+                    "text": "Minor fixes done in import issues and showing error message"
+                },
+                "Minor fixes in rendering the custom gadget and applying format functions"
+            ]
+        },
+        {
+            "version": 1.6,
+            "isBeta": false,
+            "date": 1590074736908,
+            "publishDate": 1590074736908,
+            "expectedOn": 1590431400000,
+            "whatsnew": [
+                "Added Story Points, Original & remaining estimate plus aggregate values to Status wise time spent gadget",
+                "Changes done to show updates info when clicked on version number.",
+                "Fixed: Worklog report when exported to excel, numbers are formatted as string",
+                "Fixed: Gadgets doesn't show appropriate name for sheet while exporting to excel",
+                "Fixed: In add bookmark popup, when ticket number is entered, it is necessary to press enter once to add it."
+            ]
+        },
+        {
+            "version": 1.5,
+            "isBeta": false,
+            "date": 1589135400000,
+            "publishDate": null,
+            "expectedOn": 1589135400000,
+            "whatsnew": [
+                "Fixed: Menu doesn't showup in Firefox and Edge"
+            ]
+        },
+        {
+            "version": 1.4,
+            "isBeta": true,
+            "date": 1589135400000,
+            "publishDate": null,
+            "expectedOn": 1589135400000,
+            "whatsnew": [
+                {
+                    "id": 150,
+                    "text": "Development of new report to show Status wise time spent on issues"
+                }
+            ]
+        },
+        {
+            "version": 1.3,
+            "isBeta": true,
+            "date": 1588075380000,
+            "publishDate": 1588075380000,
+            "expectedOn": 1588191780000,
+            "whatsnew": [
+                "Changes done only for publishing related activity as previous versions publish failed. Multiple small features removed to reduce permission uses to speedup review process.",
+                "For Chrome: To speedup review process in Web Store removed auto filling of current Jira Url in popup while integration.",
+                "For Chrome: No more integration with Jira will happen through popup. It will open as separate page.",
+                "Report Builder: Disabled few features / expressions due to moderators review comments in Web Store",
+                "Report Builder: Removed custom functions features completely. Still thinking of a way to implement it again.",
+                "All the changes done in last couple of versions were published only in this version."
+            ]
+        },
+        {
+            "version": 1.2,
+            "isBeta": false,
+            "date": 1587990000000,
+            "publishDate": 1587990000000,
+            "expectedOn": 1587990000000,
+            "whatsnew": [
+                {
+                    "id": 16,
+                    "text": "Implemented showing updates from Jira for any changes made to any of the issues user is tagged in."
+                }
+            ],
+            "bugs": [
+                "Known bug: #16 - Comments are not getting displayed along with Jira Updates. Will be fixed soon."
+            ]
+        },
+        {
+            "version": 1.1,
+            "isBeta": true,
+            "date": 1587982800000,
+            "publishDate": 1587982800000,
+            "expectedOn": 1587982800000,
+            "whatsnew": [
+                {
+                    "id": 146,
+                    "text": "Fixes done for 12 / 24 hour format in calendar tiles, based on user settings."
+                },
+                "Grouping of worklog flat table implemented",
+                {
+                    "id": 138,
+                    "text": "Adding support for changing display columns for groupable grid."
+                },
+                "Added support for changing display columns for Flat Grid in worklog report",
+                "Bug fixes for network error message issue.",
+                "Settings added to show or hide notification from developer",
+                {
+                    "id": 86,
+                    "text": "Allowed manual editing of date field in worklog popup."
+                },
+                {
+                    "id": 87,
+                    "text": "Support adding worklog from Worklog report for same user."
+                }
+            ],
+            "bugs": [
+                "Known bug: Worklog report: #87 - Report doesn't update automatically when worklog is newly created from Worklog report itself. Workaround: Refreshing the report updates it."
+            ]
+        },
+        {
+            "version": 1.0,
+            "isBeta": false,
+            "date": 1587226260000,
+            "publishDate": 1587226260000,
+            "expectedOn": 1587226260000,
+            "whatsnew": [
+                "Changes done only for publishing related activity as previous versions publish failed.",
+                "All the changes done in last couple of versions were published only in this version for Firefox."
+            ]
+        },
+        {
+            "version": 0.99,
+            "isBeta": true,
+            "date": 1585733400000,
+            "publishDate": 1585733400000,
+            "expectedOn": 1585733400000,
+            "whatsnew": [
+                "Option provided to enable or disable Google Analytics capture from Advanced Settings page"
+            ],
+            "bugs": [
+                "Known bug: Report Builder doesn't work as some permissions were removed based on Moderators rejected the publish",
+                "Removed google analytics temporarily due to issue with publishing."
+            ]
+        },
+        {
+            "version": 0.98,
+            "isBeta": true,
+            "date": 1584595800000,
+            "publishDate": 1584595800000,
+            "expectedOn": 1584595800000,
+            "whatsnew": [
+                {
+                    "id": 110,
+                    "text": "Fixed repetition of issue key in autocomplete"
+                },
+                {
+                    "id": 148,
+                    "text": "Fixed issue with adding user to group. This issue is due to modification in Jira API."
+                },
+                "Import issues fixed - User name mismatch and import failure",
+                "Import issues fixed - Import failure without project name but with parent ticket number.",
+                {
+                    "id": 135,
+                    "text": "Import issues with custom field failed sometimes"
+                }
+            ]
+        },
+        {
+            "version": 0.97,
+            "isBeta": true,
+            "date": 1582906328792,
+            "publishDate": 1582906328792,
+            "expectedOn": 1582906328792,
+            "whatsnew": [
+                "Bug Fixes for report loading issue due to property changes in Jira API."
+            ]
+        },
+        {
+            "version": 0.94,
+            "isBeta": true,
+            "date": 1581775636915,
+            "publishDate": 1581775636915,
+            "expectedOn": 1582223400000,
+            "whatsnew": [
+                "Bug Fixes for issue where name property is removed from Jira and extension stopped working."
+            ]
+        },
+        {
+            "version": 0.93,
+            "isBeta": false,
+            "date": 1577032886861,
+            "publishDate": null,
+            "expectedOn": 1577032886861,
+            "whatsnew": [
+                "Worklog report: Original and remaining estimate added and controllable through configuration",
+                "Help videos: Navigation buttons added",
+                "Import issues: Fixes done for error when clicking on toggle all checkbox with empty records",
+                "Security: Reduced permissions given to extension for better security"
+            ],
+            "bugs": [
+                "Known bug: For Chrome users, first time integration with Jira fails when tried from popup. This is due to new security enhancements."
+            ]
+        },
+        {
+            "version": 0.92,
+            "date": 1576002600000,
+            "publishDate": 1576002600000,
+            "whatsnew": [
+                "Installation: Fixes for configuration issue affecting advanced settings page",
+                "Calendar: Fix for error when displaying meeting details",
+                "Sprint report: Fix for error when closing group popup"
+            ]
+        },
+        {
+            "version": 0.91,
+            "date": 1575484200000,
+            "publishDate": 1575484200000,
+            "whatsnew": [
+                "Add worklog popup: Ctrl + Enter shortcut added for saving worklog (#108)",
+                "Add worklog popup: Auto focus for Ticket No field (#108)",
+                "Custom report: Fixes done for showing sub-headers in worklog columns"
+            ]
+        },
+        {
+            "version": "0.90",
+            "date": 1575311400000,
+            "publishDate": 1575311400000,
+            "whatsnew": [
+                "Multiple bug fixes throughout application"
+            ]
+        },
+        {
+            "version": 0.89,
+            "date": 1575225000000,
+            "publishDate": 1575225000000,
+            "whatsnew": [
+                "Multiple bug fixes throughout application",
+                "Enhanced Google analytics to show accurate details including errors"
+            ]
+        }
+    ],
+    "notifications": {
+        "24": {
+            "timestamp": 1672723500000,
+            "browsers": [
+                "chrome"
+            ],
+            "important": true,
+            "type": "info",
+            "autohide": 0,
+            "title": "Auto update would take time",
+            "message": "Jira Assistant is now updated in phased basis to avoid any breaking changes impacting all users. So it may take long time before your extension gets updated. If you want to manually update it immediately, just navigate to \"chrome://extensions\", turn on \"Developer mode\" from top right corner and click Update button. Then you can turn off dev mode."
+        },
+        "23": {
+            "timestamp": 1671528300517,
+            "important": true,
+            "type": "info",
+            "autohide": 0,
+            "title": "Available as App for Jira Cloud",
+            "message": "Jira Assistant can now be installed within your Jira Cloud as an App. Once installed, this would be available for all your Jira users. Visit https://www.jiraassistant.com to know more."
+        },
+        "19": {
+            "timestamp": 1658844524719,
+            "version": ">2.37",
+            "browsers": [],
+            "important": false,
+            "type": "info",
+            "autohide": 0,
+            "title": "Introducing JA Web",
+            "message": "You can visit https://app.jiraassistant.com to use or test upcoming features of Jira Assistant. Contribute in testing JA by switching to Web Version. All the fixes and new feature updates would be immediately available in Web version of JA. Later, stable updates would be pushed to Extensions."
+        }
+    }
+}

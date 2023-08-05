@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>https://www.jiraassistant.com/</loc>
+  <lastmod>2022-09-13T16:00:00+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/donate</loc>
+  <lastmod>2022-09-13T16:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/features</loc>
+  <lastmod>2022-09-13T16:00:00+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/faq</loc>
+  <lastmod>2022-09-13T16:00:00+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/faq/integration</loc>
+  <lastmod>2022-09-13T16:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/features/integration</loc>
+  <lastmod>2022-09-13T16:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/faq/dashboard</loc>
+  <lastmod>2022-09-13T16:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/features/dashboard</loc>
+  <lastmod>2022-09-13T16:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/faq/reports</loc>
+  <lastmod>2022-09-13T16:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/features/report-builder</loc>
+  <lastmod>2022-09-13T16:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/features/report-builder/ui-elements</loc>
+  <lastmod>2022-09-13T16:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/features/report-builder/ui-elements/table</loc>
+  <lastmod>2022-09-13T16:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/features/report-builder/expressions</loc>
+  <lastmod>2022-09-13T16:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/features/report-builder/expressions/functions</loc>
+  <lastmod>2022-09-13T16:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/features/reports</loc>
+  <lastmod>2022-09-13T16:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/faq/calendar</loc>
+  <lastmod>2022-09-13T16:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/features/calendar</loc>
+  <lastmod>2022-09-13T16:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/faq/bulk-import</loc>
+  <lastmod>2022-09-13T16:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/features/bulk-import</loc>
+  <lastmod>2022-09-13T16:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/faq/settings</loc>
+  <lastmod>2022-09-13T16:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/features/settings</loc>
+  <lastmod>2022-09-13T16:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/faq/security</loc>
+  <lastmod>2022-09-13T16:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/faq/web</loc>
+  <lastmod>2022-09-13T16:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/faq/support</loc>
+  <lastmod>2022-09-13T16:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/contactus</loc>
+  <lastmod>2022-09-13T16:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/version-history</loc>
+  <lastmod>2022-09-13T16:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jiraassistant.com/privacy-policy</loc>
+  <lastmod>2022-09-13T16:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+</urlset>

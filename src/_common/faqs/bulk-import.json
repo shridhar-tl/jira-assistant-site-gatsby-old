@@ -1,0 +1,16 @@
+[
+    {
+        "feature": "bulk-import",
+        "tags": [
+            "bulk import",
+            "import issues"
+        ],
+        "questions": [
+            "How do I import sub-task for multiple tickets?",
+            "How do I create sub-task for multiple tickets to gather?",
+            "How do I combine sub-task creation?",
+            "How do I create issues under multiple projects?"
+        ],
+        "answer": "While importing issues, you can provide comma separated values for parent or project column, that way you would be able to generate sub-task for multiple tickets or create same issues under multiple projects. But you cannot use both the features together. Multiple values are allowed only in parent or in project field."
+    }
+]

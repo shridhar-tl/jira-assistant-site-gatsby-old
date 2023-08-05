@@ -1,0 +1,86 @@
+[
+    {
+        "feature": "settings",
+        "existingFeature": true,
+        "tags": [
+            "working days",
+            "weekdays"
+        ],
+        "questions": [
+            "How to change weekdays/working days?"
+        ],
+        "answer": "Go to Settings > General > General [Tab], you have the option to change the working days."
+    },
+    {
+        "feature": "settings",
+        "tags": [
+            "user-groups",
+            "timezone",
+            "worklog"
+        ],
+        "questions": [
+            "How can I configure timezone for individual users?"
+        ],
+        "answer": "Worklog report, by default pulls the report in current users local timezone. If the users are working from a different timezone, then pulling worklog in local timezone would cause difference in date/time. To solve it, for individual users/groups you can add timezone settings from user groups. Setting appropriate time zone would solve the issue."
+    },
+    {
+        "feature": "settings",
+        "tags": [
+            "menu",
+            "icon"
+        ],
+        "questions": [
+            "How can I configure the menus to be shown when clicking on JA icon in browser?"
+        ],
+        "answer": "To show customized list of menus, go to Settings > General > Menu options [Tab]. Select 'Show menus' and then select all the list of pages to be shown in menu."
+    },
+    {
+        "feature": "settings",
+        "tags": [
+            "menu",
+            "icon"
+        ],
+        "questions": [
+            "How can I directly open a page when clicking on JA icon in browser?"
+        ],
+        "answer": "To directly open a page when clicking on JA icon, go to Settings > General > Menu options [Tab]. Select 'Auto launch' option and select the appropriate page to be loaded directly."
+    },
+    {
+        "feature": "settings",
+        "tags": [
+            "menu",
+            "icon",
+            "quickview"
+        ],
+        "questions": [
+            "How can I show quick view of my dashboard?"
+        ],
+        "answer": "To show a quick view of dashboard first you should enable quick view. To enable quick view, go to Settings > General > Menu options [Tab]. Select 'Show quickview dashboard' option and select the appropriate dashboard to be shown as quickview."
+    },
+    {
+        "feature": "settings",
+        "tags": [
+            "sync",
+            "sync settings"
+        ],
+        "questions": [
+            "Settings is lost when I reinstall Jira Assistant?",
+            "Can I sync settings with my firefox instance?",
+            "Use chrome sync settings"
+        ],
+        "answer": "Currently JA does not support syncing the settings anywhere. Though browser like chrome provide option to sync settings across reinstalls, it is not suitable for JA to use those sync feature. You can use Backup feature for now to export the settings. Refer issue #67 in github for more details."
+    },
+    {
+        "feature": "settings",
+        "tags": [
+            "backup",
+            "export settings"
+        ],
+        "questions": [
+            "How can I export the settings in JA?",
+            "How do I save my configurations across reinstall?",
+            "Use chrome sync settings"
+        ],
+        "answer": "Latest version of Jira Assistant support exporting settings and later after reinstall you can import it from Integrate screen. You can export or import it by clicking on the instance name from top right side of JA."
+    }
+]

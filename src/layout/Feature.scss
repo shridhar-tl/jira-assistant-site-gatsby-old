@@ -1,0 +1,35 @@
+span.expr-sample {
+    background-color: #f5f5f5;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+.func-list .func-info {
+    margin-bottom: 10px;
+
+    .async-func {
+        color: #0000ff;
+    }
+
+    .return-type {
+        color: #267f99;
+    }
+
+    .func-name {
+        color: #795e26;
+    }
+
+    .method-info {
+        color: #008000;
+    }
+
+    .func-param {
+        .param-name {
+            color: #001080;
+        }
+
+        .param-type {
+            color: #267f99;
+        }
+    }
+}

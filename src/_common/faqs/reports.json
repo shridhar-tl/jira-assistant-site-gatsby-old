@@ -1,0 +1,102 @@
+[
+    {
+        "feature": "reports",
+        "tags": [
+            "report",
+            "worklog",
+            "timesheet"
+        ],
+        "questions": [
+            "User list added in reports doesn't get saved",
+            "How will I be able to view report for only few set of users?",
+            "I will have to add list of people every time while viewing the report",
+            "User list under report doesn't gets saved"
+        ],
+        "answer": "From any of the reports, the user list popup doesn't save the details persistently. If you permanently want to save the users, then go to Settings > User groups and save the user groups to persist them. So, while generating report, sometimes if you want to generate report for only few set of users/groups, you can safely remove other users from popup and generate report. Once you reload the report, you will still see the old set of users."
+    },
+    {
+        "feature": "reports",
+        "tags": [
+            "report",
+            "worklog",
+            "timesheet"
+        ],
+        "questions": [
+            "How do I generate a report only for specific user/group from saved groups.",
+            "I need an option to select the user / group while generating report."
+        ],
+        "answer": "From any of the reports, the user list popup doesn't save the details persistently. So, if you don't want to generate the report for a specific user, then you can safely remove the user/group from the reports page. It will not get saved and so next time you reload the report, all the saved users/groups will be populated again. Hence no separate users/groups selection is required in any of the reports."
+    },
+    {
+        "feature": "reports",
+        "tags": [
+            "timezone",
+            "worklog"
+        ],
+        "questions": [
+            "Worklog showing different time in Jira and tool",
+            "Worklog uploaded for different date / time than entered"
+        ],
+        "answer": "By default, Jira Assistant would use your local timezone while uploading the worklog. Hence if you have not configured Jira with your local timezone, then Jira would show worklog in different timezone. Hence it is always necessary for you to configure Jira with your local timezone."
+    },
+    {
+        "feature": "reports",
+        "tags": [
+            "worklog report"
+        ],
+        "questions": [
+            "Worklog entered in Jira is not pulled by Jira Assistant tool",
+            "Jira Assistant does not show worklog from Jira"
+        ],
+        "answer": "Any worklog in Jira should be pulled by Jira Assistant. Ensure that you are providing appropriate query, User details, date range, etc.. If you are sure that filters you provided is accurate and still worklog is missing, then it is probably the issue with Indexing in Jira. If there are any recent updates or it has been sometimes long since last indexing in Jira has happened, then most probably re-indexing Jira would solve this issue. Contact your Jira admin about re-indexing."
+    },
+    {
+        "feature": "reports",
+        "tags": [
+            "worklog report",
+            "filters"
+        ],
+        "questions": [
+            "In worklog report, how do I add additional filters like project, etc.?"
+        ],
+        "answer": "In worklog report, click on the config icon from top right corner of the worklog report which would open a popup. This popup will contain a tab named JQL. Here you can add any additional filters you want."
+    },
+    {
+        "feature": "reports",
+        "tags": [
+            "worklog report",
+            "filters",
+            "email"
+        ],
+        "questions": [
+            "Is there an option to email the report automatically on daily basis?"
+        ],
+        "answer": "No, currently there are no such features available and no plans to implement it in future as well. Browser extension are not meant for such background task processing and we cannot rely on extension to do it. There could be instances where it fails and could cause troubles."
+    },
+    {
+        "feature": "reports",
+        "tags": [
+            "billable hours",
+            "non-billable hours"
+        ],
+        "questions": [
+            "Is there a way to specify billable and non billable hours?",
+            "Differentiate billable and non billable hours",
+            "Mark billable and non billable hours"
+        ],
+        "answer": "As of now, there is no inbuilt feature available as such. However, you can work around it by using other fields in Jira. For example, you can add a label to all the issues for which billing is not necessary and in worklog report, you can add a JQL filter to not pull issues with those labels."
+    },
+    {
+        "feature": "reports",
+        "tags": [
+            "groups",
+            "export",
+            "import"
+        ],
+        "questions": [
+            "Can I share the user groups with other users of JA?",
+            "Is their a way I can share my user groups?"
+        ],
+        "answer": "Yes, you can export the settings only by selecting user groups which would generate a .jab file. You can share this file with anyone to whom you want to share the groups with."
+    }
+]

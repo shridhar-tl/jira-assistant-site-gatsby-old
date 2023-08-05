@@ -1,0 +1,43 @@
+[
+    {
+        "feature": "security",
+        "tags": [
+            "data",
+            "privacy",
+            "security"
+        ],
+        "questions": [
+            "What information is stored within JA browser cache?"
+        ],
+        "answer": "Jira Assistant doesn't store any sensitive information anywhere. It just stores the settings, Jira url, Jira profile details including mail id in browser cache. However, while using credential based authentication, JA has to store the credentials you provide as well within cache. Additionally it stores schema of Custom Report and Report Builder if you have created any. You can read more about it from Privacy Policy page."
+    },
+    {
+        "feature": "security",
+        "tags": [
+            "data",
+            "privacy",
+            "security"
+        ],
+        "questions": [
+            "What data is collected by developers from the users of JA?",
+            "Does Jira Assistant extension or Web or App capture my data?",
+            "Are there any cloud storage?"
+        ],
+        "answer": "Jira Assistant stores all your data in your browser local storage only. It does not send any of your information outside your browser. Additionally, no credentials or other sensitive information is stored anywhere. To know more about our privacy policy, please visit https://www.jiraassistant.com/privacy-policy"
+    },
+    {
+        "feature": "security",
+        "tags": [
+            "data",
+            "privacy",
+            "security"
+        ],
+        "questions": [
+            "How secured is my data with JA?",
+            "Is my data encrypted while storing?",
+            "Is my data safe with Jira Assistant?",
+            "What are the risks of using Jira Assistant?"
+        ],
+        "answer": "JA stores all your data in your browser local storage only and in an unencrypted format. However, it does not store or send any of your information outside your browser. Additionally no credentials or other sensitive information is stored anywhere. Hence there are no known security concerns about the stored data. To know more about what kind of data we store, please visit https://www.jiraassistant.com/privacy-policy"
+    }
+]

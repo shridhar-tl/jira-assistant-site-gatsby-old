@@ -1,0 +1,110 @@
+[
+    {
+        "feature": "general",
+        "tags": [
+            "free",
+            "security"
+        ],
+        "questions": [
+            "Why Jira Assistant is free and how does it generate revenue?"
+        ],
+        "answer": "Jira Assistant began as a simple utility in 2016 for quickly adding worklog and pulling reports from Jira. Hence its motive is not to generate revenue. However, due to browser updates and other factors, it requires considerable effort to maintain the stability of the tool. Hence contributions from users in any form are welcome."
+    },
+    {
+        "feature": "general",
+        "tags": [
+            "contribute",
+            "support"
+        ],
+        "questions": [
+            "Can I contribute in development?",
+            "Can I add a new feature in Jira Assistant?",
+            "Can I raise pull request (PR) in Jira Assistant?"
+        ],
+        "answer": "JA is an open-source project where the source code is available on GitHub. Any developers are more than welcome to raise a PR for a bug fix or for a new feature. Guidelines for development are available on GitHub."
+    },
+    {
+        "feature": "general",
+        "tags": [
+            "jira versions"
+        ],
+        "questions": [
+            "Does JA Support both Cloud and data center version of Jira?"
+        ],
+        "answer": "Yes, JA works with both cloud and data center version of Jira. But it supports OAuth based authentication only with the cloud version. If you want OAuth to be supported in your data center version of Jira, please contact the developer."
+    },
+    {
+        "feature": "general",
+        "tags": [
+            "contract",
+            "pay"
+        ],
+        "questions": [
+            "Can I request for a new extension or an app from the developer?",
+            "Can I hire the developer as a freelancer?"
+        ],
+        "answer": "If you want a Web, Mobile, Desktop or Browser extension to be developed and would like to pay for it, you can contact the developer through mail with the detailed requirement and can discuss further."
+    },
+    {
+        "feature": "general",
+        "tags": [
+            "data"
+        ],
+        "questions": [
+            "Sometimes JA doesn't show worklog details in reports or in calendar?",
+            "Sometimes Jira issues are not shown in JA reports."
+        ],
+        "answer": "Jira Assistant pulls the data from Jira by calling the API exposed by Jira. Sometimes due to indexing issues, Jira API doesn't return some worklog, issues, comments, etc.,. If you face such issues, then I would suggest to check with your Jira admin and see if indexing in Jira is optimal. Most of the times, re-indexing Jira solves this issue of missing data in JA. This is not really an issue with this tool, but in Jira's API."
+    },
+    {
+        "feature": "general",
+        "tags": [
+            "support"
+        ],
+        "questions": [
+            "How quick can I expect support/response from developer?",
+            "What is my probability in getting the issue resolved?"
+        ],
+        "answer": "Jira Assistant is a free tool and is developed and maintained by a single developer. Due to the huge volume of support incidents and other priorities, it may not be always feasible for the developer to respond on timely basis. While contacting the developer, always provide exact information about the issue you are facing along with required screenshots / console errors if any. Unfortunately, not all issues are resolved and sometimes may not be attended due to other priorities."
+    },
+    {
+        "feature": "general",
+        "tags": [
+            "support"
+        ],
+        "questions": [
+            "Can holidays and leaves be configured?",
+            "How to configure public holidays?",
+            "How to track public holidays?",
+            "How to track leaves?",
+            "How to integrate with leave calendar?"
+        ],
+        "answer": "Currently JA does not support holidays and leave of absence/time-off configuration. Holiday API integration is already a feature being tracked as part of #26. Please have a look at that for more details and provide your comments."
+    },
+    {
+        "feature": "general",
+        "tags": [
+            "notifications"
+        ],
+        "questions": [
+            "Why there is no option to mark all Jira Notifications as read",
+            "Mark all notifications as read",
+            "Mark all messages as read",
+            "No option to mark all updates as read"
+        ],
+        "answer": "Due to the way notifications are implemented currently, it is not possible to mark all the notifications as read. If you open a Jira ticket, all the notifications related to that ticket is automatically not pulled next time. That way, only option to not show notification next time is to open individual tickets. There could be some better options in future and until then please bear with me."
+    },
+    {
+        "feature": "general",
+        "tags": [
+            "chrome update"
+        ],
+        "questions": [
+            "Add to Chrome button is disabled in chrome web store",
+            "Unable to install Jira Assistant for chrome users",
+            "Chrome download not available",
+            "Install button is disabled in chrome web store"
+        ],
+        "answer": "With chrome, Jira Assistant is supported only for Chrome version above 102.x. So if you are using a old version of chrome, You are requested to upgrade to latest version of chrome and enjoy latest security updates provided by chrome along with updated version of Jira Assistant."
+    }
+]

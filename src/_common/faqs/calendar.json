@@ -1,0 +1,65 @@
+[
+    {
+        "feature": "calendar",
+        "tags": [
+            "worklog",
+            "comments"
+        ],
+        "questions": [
+            "How to make comments in worklogs non mandatory?",
+            "Nothing happens when I click on Save button in worklog popup",
+            "Worklog popup does not allow to save"
+        ],
+        "answer": "On the worklog popup, the comments section is mandatory by default. You have an option to configure the number of how many characters has to be entered to consider it as a valid comment. To configure this, go to Settings > General > Worklog [Tab] and find the section \"Min length for worklog comments\" and edit the minimum characters required. Setting this to '0' would make it a non mandatory field."
+    },
+    {
+        "feature": "calendar",
+        "tags": [
+            "worklog"
+        ],
+        "questions": [
+            "How to log work on closed tickets?",
+            "JA doesn't allow logging work in closed tickets"
+        ],
+        "answer": "By default, JA doesn't allow to add worklog on closed tickets. But you can configure this behavior, go to Setting > General > Worklog [Tab] and check the checkbox \"Worklog for closed tickets\". Enabling this would let you to add worklog on closed tickets. Note: This option would work only if Jira is configured to allow this behavior."
+    },
+    {
+        "feature": "calendar",
+        "tags": [
+            "worklog"
+        ],
+        "questions": [
+            "How to copy worklog in calendar view?",
+            "How do I replicate the worklogs?",
+            "How do I copy worklog with drag and drop?"
+        ],
+        "answer": "From calendar view you can easily copy worklogs by two different ways. One by right clicking on the event and click on the copy menu which will open worklog popup where you can provide date and time of target worklog. Second option is even quicker and easier, just press the Alt key and drag and drop the worklog where you want it to be copied."
+    },
+    {
+        "feature": "calendar",
+        "tags": [
+            "worklog",
+            "suggestions",
+            "ticket list"
+        ],
+        "questions": [
+            "All tickets are not shown in ticket suggestion drop down",
+            "Only tickets assigned to me are listed in ticket suggestion drop down"
+        ],
+        "answer": "You can change the list of tickets shown in the suggestion drop down by changing the JQL. To configure the JQL, go to Settings > Advanced page and find the JQL corresponding to \"Ticket suggestions JQL\" label. You cannot edit the default JQL as it is for reference only, but you can edit the instance specific JQL."
+    },
+    {
+        "feature": "calendar",
+        "tags": [
+            "worklog",
+            "suggestions",
+            "ticket list"
+        ],
+        "questions": [
+            "No support for adding worklog from list and grid view of calendar",
+            "Provide support for adding worklog from list and grid view",
+            "Unable to add worklog from list and grid view"
+        ],
+        "answer": "As of now, JA doesn't support adding worklog from some of the views under Calendar. This is already known and in future based on popularity it could be supported. But as of now it is kept as low priority."
+    }
+]

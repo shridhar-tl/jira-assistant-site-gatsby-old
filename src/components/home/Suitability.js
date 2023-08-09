@@ -20,96 +20,85 @@ export default function Suitability() {
 }
 
 const tabManagers = (<div className="tab-pane fade show active">
-    <p className="fst-italic">Supports generating various reports and customize it the way you would like it</p>
+    <p className="fst-italic">Dynamic Reporting: Generate a variety of reports tailored to your preferences.</p>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Generate various reports like Worklog, Sprint, etc</h4>
+        <h4>Comprehensive Insights: Access reports for Worklogs, Sprints, and more.</h4>
     </div>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Estimate vs Actual report with story points or time estimates</h4>
+        <h4>Effective Project Tracking: Estimate vs. Actual report with story points or time estimates for insightful project tracking.</h4>
     </div>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Custom report generation with grouping and expressions</h4>
+        <h4>Custom Insights: Craft custom reports with grouping and expressions to match your unique needs.</h4>
     </div>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Status wise time spent report available as gadget</h4>
+        <h4>Quick Access to Data: Status-wise time spent reports available as convenient gadgets.</h4>
     </div>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Bulk import issues</h4>
+        <h4>Enhanced Data Import: Bulk import issues for quicker data entry and management.</h4>
     </div>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Out of box support for estimation with inbuilt Poker</h4>
+        <h4>Agile Estimation: Out-of-the-box support for estimation with the built-in planning poker.</h4>
     </div>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Customizable dashboard / gadgets</h4>
+        <h4>Personalized Dashboards: Customize your dashboard and gadgets to optimize your workflow.</h4>
     </div>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Excel, CSV & PDF exports</h4>
+        <h4>Export Versatility: Export data in Excel, CSV, and PDF formats for easy sharing and analysis.</h4>
     </div>
 </div>);
 
 const tabAssociate = (<div className="tab-pane fade show active">
-    <p className="fst-italic">No admin privileges required, install, integrate and start using it to enhance your time tracking experience with Jira</p>
+    <p className="fst-italic">Effortless Setup: No admin privileges needed; install, integrate, and enhance your Jira time tracking experience seamlessly.</p>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Use timer for worklog generation</h4>
+        <h4>Intuitive Time Tracking: Utilize the timer for easy and accurate worklog generation.</h4>
     </div>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>
-            Easily edit/view worklog from calendar view</h4>
+        <h4>Visualize with Ease: Edit and view worklogs directly from a user-friendly calendar view.</h4>
     </div>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Bulk import worklogs from CSV</h4>
+        <h4>Streamlined Data Entry: Bulk import worklogs from CSV files for quick data input.</h4>
     </div>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Integration with outlook calendar</h4>
+        <h4>Streamlined Calendar Integration: Automatically generate worklogs for meetings through Outlook calendar integration.</h4>
     </div>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Auto worklog generation for meetings</h4>
+        <h4>Seamless Worklog Management: Drag and drop to copy, move, and resize worklogs effortlessly.</h4>
     </div>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Copy / Move worklog with drag and drop</h4>
-    </div>
-
-    <div className="d-flex align-items-center mt-4">
-        <i className="bi bi-check2"></i>
-        <h4>Edit worklog by resizing in calendar</h4>
-    </div>
-
-    <div className="d-flex align-items-center mt-4">
-        <i className="bi bi-check2"></i>
-        <h4>Build your own gadgets using custom report or report builder</h4>
+        <h4>Personalized Gadgets: Build and customize gadgets using custom reports or the report builder.</h4>
     </div>
 </div>);
 
 const tabOrgs = (<div className="tab-pane fade show active">
-    <p className="fst-italic">Why spend 100&apos;s of dollars every month on commercial products, when Jira Assistant is available for free?</p>
+    <p className="fst-italic">Embrace a cost-effective solution, saving significant expenses on commercial alternatives</p>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
@@ -118,37 +107,37 @@ const tabOrgs = (<div className="tab-pane fade show active">
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Fully open-source product</h4>
+        <h4>Fully Open-Source: Jira Assistant is a fully open-source product, ensuring transparency and reliability.</h4>
     </div>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>No data collected or stored from your instance of Jira</h4>
+        <h4>Data Privacy: Rest easy knowing no data is collected or stored from your Jira instance.</h4>
     </div>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Works well with both data center and cloud instance of Jira</h4>
+        <h4>Flexible Compatibility: Works seamlessly with both Jira Data Center and Cloud instances.</h4>
     </div>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Supports integrating with multiple instance of Jira</h4>
+        <h4>Multi-Instance Support: Easily integrate with multiple instances of Jira for streamlined management.</h4>
     </div>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Supports installing as App within Jira Cloud</h4>
+        <h4>Cloud App Integration: Install as an app within Jira Cloud for enhanced functionality.</h4>
     </div>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Various authentication options to integrate with Jira</h4>
+        <h4>Diverse Authentication Options: Choose from various authentication methods for Jira integration.</h4>
     </div>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Supports customized self hosting</h4>
+        <h4>Custom Hosting: Supports self-hosting, providing flexibility to suit your organization's preferences.</h4>
     </div>
 </div>);
 

@@ -12,39 +12,69 @@ function PrivacyPolicy() {
                     <h2 className="mb-10">Privacy Policy - ({AppNameLong})</h2>
 
                     <h3>Introduction</h3>
-                    <p className="mb-40">{AppNameLong} values the privacy and security of the information seriously that you share with us through any medium. It is important that you understand how we collect, use, and maintain your information. This Privacy Policy deals with personally identifiable information (referred to as &quot;Data&quot; below) that may be collected by us while using the extension or on our site.</p>
-                    <p className="mb-40">This privacy policy is applicable for Jira Assistant extension, web, cloud and desktop apps as well.</p>
-                    <p className="mb-40">By submitting personally identifiable information on {AppNameLong}, you agree to the terms of this privacy policy and you explicitly consent to the collection, use of your personally identifiable information in accordance with this privacy policy.</p>
-                    <p className="mb-40">This Privacy Policy (last updated on May 01, 2020) does not apply to other entities that we do not own or control or persons that are not part of our development team, agents or within our control. Please take time to read our Terms & Conditions.</p>
+                    <p className="mb-40">{AppNameLong} places a strong emphasis on the privacy and security of the information you share with us through various channels. It's important for you to comprehend how we collect, use, and safeguard your information. This Privacy Policy pertains to personally identifiable information ("Data") that may be gathered by us when using the extension or visiting our site.</p>
+                    <p className="mb-40">This privacy policy applies to Jira Assistant extension, web, cloud, and desktop apps.</p>
+                    <p className="mb-40">By submitting personally identifiable information on {AppNameLong}, you consent to the terms of this privacy policy and explicitly agree to the collection and use of your personally identifiable information in line with this policy.</p>
+                    <p className="mb-40">This Privacy Policy (last updated on May 01, 2020) doesn't apply to entities not owned or controlled by us, or individuals not part of our development team, agents, or under our control. Please review our Terms & Conditions.</p>
 
                     <h3>How safe is the data handled by {AppNameLong}?</h3>
-                    <p className="mb-40">When it comes to security, first thing to be clear is, {AppNameLong}, by default does not capture or store your credentials. It only captures your Jira server URL provided by you and it fetches your profile information like email address, user name and timezone from Jira and store it in browsers cache. By default, to connect to Jira, it just uses your browsers authentication with Jira.
-                        When you use credential based authentication or oAuth authentication with Jira, this tool stores those information (encoded, but not encrypted) within your browser cache and no where else.</p>
+                    <p className="mb-40">
+                        When it comes to security, it's crucial to understand that Jira Assistant prioritizes your privacy. By default, the tool does not
+                        capture or store your credentials. Instead, it collects your Jira server URL that you provide and retrieves essential profile details
+                        such as your email address, username, and timezone directly from Jira. This information is stored within your browser's cache, ensuring
+                        your data remains localized.
+                    </p>
+                    <p className="mb-40">
+                        The default mode of connecting to Jira is through your browser's built-in authentication. This means that Jira Assistant leverages the
+                        existing authentication mechanism of your browser when connecting to Jira.
+                    </p>
+                    <p className="mb-40">
+                        For users who opt for credential-based or OAuth-based authentication with Jira, the tool employs a secure process. In these cases, the relevant information is encoded and stored exclusively within your browser's cache. This approach ensures that your
+                        sensitive data remains within your control and is not transmitted or stored externally.
+                    </p>
+                    <p className="mb-40">
+                        Your privacy and data security are paramount to us, and Jira Assistant is designed with these principles in mind.
+                    </p>
+                    <br />
+                    <h3>Data Collection by {AppNameLong} Developer</h3>
+                    <p className="mb-40"><strong>Personal Information:</strong> The only personal information collected includes your name and email address.
+                        This data is gathered when you voluntarily submit it through the contact us forum. We do not track or maintain this information through
+                        any other means. We do not collect additional data such as company or Jira server URL. When you reach out to us, your email address is used
+                        solely for responding to your inquiries. All your personal information is securely stored within your browser cache and is not transmitted
+                        beyond your browser by this tool.</p>
+                    <p className="mb-40"><strong>Non-Personal Information:</strong> Non-Personal Data encompasses information that cannot identify or contact you,
+                        such as demographic details (e.g., user IP addresses, country), browser types, and anonymous statistical information related to {AppNameLong}
+                        extension usage. Google Analytics, integrated with the extension, is the sole medium for collecting this data.</p>
+                    <p className="mb-40">Google Analytics aids us in understanding which modules of the tool are frequently used by users, offering insights based
+                        on aggregated country data. Starting from version v1.0, users have the option to disable Google Analytics, depending on their preference.</p>
+                    <p className="mb-40">Furthermore, Google Analytics assists in gathering error reports when issues occur while using {AppNameLong}. These reports
+                        are crucial for identifying and resolving problems. Typically, these reports do not contain personally identifiable details or your
+                        Jira server's information. However, in cases of HTTP errors, there is a remote possibility that certain details may be transmitted if your
+                        Jira server responds with such data. No instances of this occurrence have been identified thus far. It's important to note that these error
+                        reports are not retained for more than 3 to 6 months, after which they are automatically deleted.</p>
+                    <p className="mb-40">
+                        <strong>Note:</strong> Neither {AppNameLong} nor its developer assumes responsibility if other malicious software installed
+                        by you captures these details from Jira Assistant's browser cache. Users must exercise caution when installing software to ensure their safety.</p>
+                    <br />
 
-                    <h3>What information is collected by developer from users of {AppNameLong}?</h3>
-                    <p className="mb-40"><strong>Personal Information:</strong> The personal information includes just your name and email address. Such information is only collected from you if you voluntarily submit it to us through contact us forum. We do not maintain or track it through any other medium. No other information like company or Jira server URL is collected by developer. Only when you try to contact us, we get your email address just to respond you back. So, all your personal information&apos;s are safe in your browser cache and is not sent anywhere outside of your browser by this tool.</p>
-                    <p className="mb-40"><strong>Non-Personal Information:</strong> The Non-Personal Data includes information that cannot be used to identify or contact you, like demographic information, for example, user IP addresses, country, browser types and other anonymous statistical information that includes the use of {AppNameLong} extension. From extension Google Analytics is the only medium through which we collect this data.</p>
-                    <p className="mb-40">We use Google analytics to capture which module of the tool is being used much by users and that too only in aggregate based on country. From versions v1.0 Google Analytics can also be disabled and it is your wish whether to enable it on not.</p>
-                    <p className="mb-40">Similarly we use Google Analytics to collect errors occurred while using {AppNameLong}. We use this error report just to identify and fix the issue. Usually this should not contain any details which is personally identifiable or your Jira server&apos;s details. But in case of http errors, if your Jira server responds with any such details, there is a possibility that, it is being sent to us. So far no such instances were identified where Jira returns such details. But these error reports are not maintained longer than 3 to 6 months and after which these are deleted automatically.</p>
-                    <p className="mb-40"><strong>Note:</strong> {AppNameLong} or its developer is not responsible if some other malicious software installed by you captures these details from your cache. Hence it is the responsibility of users to be safe when installing software&apos;s.</p>
-
-                    <h3>How can I disable Google Analytics</h3>
-                    <p className="mb-40">These analytics helps us to identify the most used features and issues which helps us provide better working experience for you. But if you no longer wish to share such information with us, then you can disable it from {AppNameLong} through Advance Setting page. Note: This feature is only available since {AppNameLong} v1.0.</p>
-
-                    <h3>Who has the access to your data</h3>
-                    <p className="mb-40">We do not share your personal data with any third-party in a way that reveals your personal information like email and name (subject to laws and regulations). Only {AppNameLong} developers have access to these data.</p>
-
-                    <h3>What purposes your data are used for</h3>
-                    <p className="mb-40">This is just used to reply to you when you contact us for any queries or reporting bugs. We do not use it for advertising or any other purpose.</p>
-
-                    <h3>How long we retains your information</h3>
-                    <p className="mb-40">We retain your contact details till the time we resolve your queries or for maximum of 3 year which ever is higher.</p>
-
-                    <h3>What we don’t do with your personal data</h3>
-                    <p className="mb-40">We do not and will never share, disclose, sell, rent, or otherwise provide your personal data to other companies for the marketing of their own products or services.</p>
-
-                    <h3>What if we make changes to our Privacy Policy</h3>
-                    <p className="mb-40">Any change made or any new point added to the Privacy Policy described above will be published here on this page. The major changes will also be informed through extension.</p>
+                    <h3>Disabling Google Analytics</h3>
+                    <p className="mb-40">Google Analytics provides valuable insights into the most frequently used features and prevalent issues, contributing to an
+                        improved user experience. However, if you choose not to share such information with us, you can easily disable Google Analytics within
+                        {AppNameLong} via the Advanced Settings page. Note: This option has been available since {AppNameLong} v1.0.</p>
+                    <h3>Data Access</h3>
+                    <p className="mb-40">We uphold strict data privacy principles and do not share your personal data in a manner that exposes sensitive information
+                        such as email and name (in accordance with applicable laws and regulations). Only authorized {AppNameLong} developers possess access to this data.</p>
+                    <h3>Purposes of Data Usage</h3>
+                    <p className="mb-40">The collected data is solely used to address your queries or respond to bug reports. We do not utilize this information for
+                        advertising or any other unrelated purposes.</p>
+                    <h3>Data Retention Period</h3>
+                    <p className="mb-40">We retain your contact details for the duration required to resolve your queries or for a maximum of 3 years, whichever is longer.</p>
+                    <h3>Restrictions on Personal Data Usage</h3>
+                    <p className="mb-40">We unequivocally commit to not sharing, disclosing, selling, renting, or otherwise providing your personal data to external
+                        entities for the promotion of their own products or services.</p>
+                    <h3>Updates to Privacy Policy</h3>
+                    <p className="mb-40">Any modifications or additions to the aforementioned Privacy Policy will be promptly published on this page. Major changes
+                        will also be communicated through the extension.</p>
                 </div>
             </section>
         </Layout>

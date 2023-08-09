@@ -46,5 +46,97 @@
             "How do I change the tickets list shown in My Open Tickets gadget?"
         ],
         "answer": "Some levels of customizations are allowed for each gadgets. You can look at the corresponding gadget's settings by clicking on the wrench icon and JA Advanced settings for some options to customize the gadget. But most of the customizations you expect can be built using Custom reports/Report builder."
+    },
+    {
+        "feature": "dashboard",
+        "tags": [
+            "add gadget",
+            "customization"
+        ],
+        "questions": [
+            "How can I add a custom gadget to my dashboard?",
+            "Is there a way to include my own gadget on the dashboard?",
+            "What's the process for adding a personalized gadget to my dashboard?"
+        ],
+        "answer": "You can add a custom gadget to your dashboard by building a report using the Custom Reports or Report Builder module. Once the report is created, you can add it as a gadget from the add gadget popup on the dashboard."
+    },
+    {
+        "feature": "dashboard",
+        "tags": [
+            "layout",
+            "tabbed view"
+        ],
+        "questions": [
+            "Can I switch between tabbed layout and grid layout for my dashboard?",
+            "Is it possible to change the layout of my dashboard from tabs to a grid?",
+            "How can I toggle between tabbed and grid layout for my dashboard?"
+        ],
+        "answer": "Yes, you can switch between tabbed layout and grid layout for your dashboard. Click on the wrench icon from the top right corner of the dashboard and select the 'Show in tabs' menu to toggle between the two layouts."
+    },
+    {
+        "feature": "dashboard",
+        "tags": [
+            "rename",
+            "delete"
+        ],
+        "questions": [
+            "Can I rename or delete a dashboard?",
+            "How do I change the name of a dashboard or delete it?",
+            "Is there a way to modify the dashboard name or permanently remove it?"
+        ],
+        "answer": "Yes, you can rename or delete a dashboard. To rename, click on the name header label and edit it. To delete, click on the wrench icon from the top right corner and select the 'Delete dashboard' option. Please note that deletion is irreversible."
+    },
+    {
+        "feature": "dashboard",
+        "tags": [
+            "fullscreen",
+            "expand",
+            "gadget view"
+        ],
+        "questions": [
+            "Can I view gadgets in full screen mode?",
+            "Is there a way to expand gadgets for a better view?",
+            "How can I maximize the display of gadgets?"
+        ],
+        "answer": "Yes, you can view gadgets in full screen mode. Click on the 'Expand' icon (fa fa-expand) present in the gadget to expand it and view it in full screen."
+    },
+    {
+        "feature": "dashboard",
+        "tags": [
+            "quick view",
+            "popover"
+        ],
+        "questions": [
+            "How can I set a dashboard as a quick view page?",
+            "Is there a way to use a dashboard as a quick view popover?",
+            "What's the process for configuring a dashboard as a quick view?"
+        ],
+        "answer": "To set a dashboard as a quick view page, click on the icon from the top right corner of the dashboard and select 'Set as quick view' from the menu. The dashboard will then appear as a popover when clicking the JA icon."
+    },
+    {
+        "feature": "dashboard",
+        "tags": [
+            "gadget arrangement",
+            "rearrange gadgets"
+        ],
+        "questions": [
+            "Can I rearrange the position of gadgets on the dashboard?",
+            "Is there a way to change the order of gadgets on the dashboard?",
+            "How do I move gadgets around on the dashboard?"
+        ],
+        "answer": "Yes, you can rearrange the position of gadgets on the dashboard. In grid layout, simply drag and drop the gadgets by their header to change their order."
+    },
+    {
+        "feature": "dashboard",
+        "tags": [
+            "add bookmarks",
+            "bookmark tickets"
+        ],
+        "questions": [
+            "How can I add tickets to the Bookmarks gadget?",
+            "Is there a way to bookmark specific tickets using the Bookmarks gadget?",
+            "What's the process for adding tickets to the Bookmarks gadget?"
+        ],
+        "answer": "You can add tickets to the Bookmarks gadget by clicking on the plus icon (fa fa-plus). This will allow you to add multiple tickets to the list of bookmarked tickets."
     }
 ]

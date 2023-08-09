@@ -24,37 +24,37 @@ const browserExtension = (<div className="tab-pane fade show active">
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Available for all major browser like Chrome, Edge, Firefox and Opera</h4>
+        <h4>Seamless Browser Integration: Available for leading browsers – Chrome, Edge, Firefox, and Opera.</h4>
     </div>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Supports both cloud and data center edition of Jira</h4>
+        <h4>Jira Compatibility: Supports both Cloud and Data Center editions of Jira.</h4>
     </div>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Supports all authentication mechanism like oAuth 2, forms authentication, basic authentication using credentials</h4>
+        <h4>Authentication Flexibility: Compatible with various authentication mechanisms such as oAuth 2, forms authentication, and basic authentication.</h4>
     </div>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>No admin access or special permissions required</h4>
+        <h4>Simple Installation: No admin access or special permissions required for installation.</h4>
     </div>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Works offline, without need for internet after installation</h4>
+        <h4>Offline Usage: Works offline without requiring an internet connection post-installation.</h4>
     </div>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Supports injecting quick icons for timer functionality to Jira board and issues</h4>
+        <h4>Enhanced Jira Integration: Injects quick icons for timer functionality directly into Jira boards and issues.</h4>
     </div>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Quick installation and seamless integration</h4>
+        <h4>Effortless Integration: Quick installation and smooth integration for immediate use.</h4>
     </div>
 </div>);
 
@@ -63,81 +63,81 @@ const webApp = (<div className="tab-pane fade show active">
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>No installation required, access just like any other website on the go via internet</h4>
+        <h4>Hassle-Free Access: No installation required – access via any browser as a hosted website.</h4>
     </div>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Does not collet or store any information outside your browser</h4>
+        <h4>Data Privacy Assurance: No data collection or storage outside your browser.</h4>
     </div>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Hosted as static site within GitHub with no backend server</h4>
+        <h4>Hosting Details: Hosted as a static site within GitHub without the need for a backend server.</h4>
     </div>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Supports oAuth and basic authentication with Jira</h4>
+        <h4>Authentication Support: Compatible with oAuth and basic authentication with Jira.</h4>
     </div>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Supports customized self hosting within your organization as an internal website</h4>
+        <h4>Custom Hosting: Supports customized self-hosting as an internal website within your organization.</h4>
     </div>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Use it from any browser and from any device</h4>
+        <h4>Cross-Device Usability: Access from any browser and device, ensuring flexibility.</h4>
     </div>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Integrates with extension if available and would always be up to date with recent fixes and updates</h4>
+        <h4>Extension Integration: Integrates with the extension if installed, staying updated with the latest fixes and updates.</h4>
     </div>
 </div>);
 
 const cloudApp = (<div className="tab-pane fade show active">
-    <p className="fst-italic">Install it within your cloud Jira like any other marketplace app</p>
+    <p className="fst-italic">Install within your Jira Cloud as you would any other marketplace app</p>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Install it within your Jira and let everyone within your organization use it seamlessly</h4>
+        <h4>Enhanced Accessibility: Seamlessly accessible for your entire organization within your Jira instance.</h4>
     </div>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Do not collect or store any data outside your browser</h4>
+        <h4>Data Privacy Commitment: No data collection or storage beyond your browser.</h4>
     </div>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Multiple out of box gadgets available to add within your Jira dashboard</h4>
+        <h4>Out-of-Box Gadgets: Multiple pre-built gadgets available for effortless integration into your Jira dashboard.</h4>
     </div>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Adds time tracking feature within issues page of Jira</h4>
+        <h4>Issue-Level Integration: Adds time tracking functionality directly within Jira issue pages.</h4>
     </div>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Needs Jira Admin privilege for one time installation</h4>
+        <h4>Jira Admin Privilege: Requires Jira Admin privilege for initial installation only.</h4>
     </div>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Receive more frequent updates than browser extension</h4>
+        <h4>Timely Updates: Receive more frequent updates compared to browser extensions.</h4>
     </div>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Compact custom built version for cloud Jira</h4>
+        <h4>Compact Custom Version: Custom-built for cloud Jira, ensuring optimal performance.</h4>
     </div>
 
     <div className="d-flex align-items-center mt-4">
         <i className="bi bi-check2"></i>
-        <h4>Supports monitoring and controlling of feature upgrades</h4>
+        <h4>Feature Control: Enables monitoring and control of feature upgrades for a tailored experience.</h4>
     </div>
 </div>);
 

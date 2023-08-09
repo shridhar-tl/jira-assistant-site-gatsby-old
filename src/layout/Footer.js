@@ -47,6 +47,7 @@ function Footer() {
                             <li><i className="bi bi-chevron-right"></i> <Link href={Urls.operaLink}>As Opera Extension</Link></li>
                             <li><i className="bi bi-chevron-right"></i> <Link href={WebAppUrl}>Use Web version</Link></li>
                             <li><i className="bi bi-chevron-right"></i> <Link href={Urls.jiraCloudApp}>As Jira Cloud App</Link></li>
+                            <li><i className="bi bi-chevron-right"></i> <Link href="/install-options">Know what suits you</Link></li>
                         </ul>
                     </div>
                 </div>

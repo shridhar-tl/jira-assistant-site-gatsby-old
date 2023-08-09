@@ -18,9 +18,7 @@ export function Banner() {
             <div className="row">
                 <div className="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
                     <h1>Easy Installation & Quick Integration</h1>
-                    <h2>Install the extension with a single click and quickly integrate with
-                        Jira or install it as App within your Jira Cloud and enable it for all
-                        your users. Get what you need working in less than a minute.</h2>
+                    <h2>Choose between a single-click browser extension integration for quick Jira connectivity or install it as a Jira Cloud App, benefiting all users. Get up and running in under a minute, simplifying work tracking and reporting effortlessly.</h2>
                     <div className="available-for">
                         <h2>Available for</h2>
                         {appDetails.map(ci => {

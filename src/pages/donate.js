@@ -10,7 +10,7 @@ function Donate() {
         <Layout>
             <section>
                 <br /><br /><br />
-                <h1 className="text-center">Thank you for your interest in donating us</h1>
+                <h1 className="text-center">Thank you for your interest in donating to us</h1>
                 <br />
                 <div className="container">
                     <div className="row">
@@ -18,33 +18,33 @@ function Donate() {
                             <div className="mb-40">
                                 <h2>Why {AppNameLong} is free?</h2>
                                 <p>
-                                    The motive of building {AppNameLong} is to help people who are spending lots of time in Jira to get some simple
-                                    things done or spend lots of money in buying a similar software and paying a lump sum for its subscription every year.
+                                    The goal behind creating {AppNameLong} is to assist individuals who spend significant time in Jira,
+                                    making routine tasks simpler, without the need to invest in expensive software or yearly subscriptions.
                                 </p>
                             </div>
                             <br />
                             <div>
-                                <h4>Do you think {AppNameLong} saved you some time and helped you to get things easier?</h4>
-                                <p>Then it is right time to donate us and get an even better working tool which can save even more of your precious time.</p>
+                                <h4>Has {AppNameLong} saved you time and streamlined tasks?</h4>
+                                <p>If {AppNameLong} has made your tasks easier and saved you time, consider making a donation to access an
+                                    even more advanced tool that can further optimize your workflow.</p>
                             </div>
                             <br />
                             <div>
-                                <h4>How would my donation be helpful?</h4>
+                                <h4>How Will Your Donation Help Us?</h4>
                                 <p className="mb-40">
-                                    We had spent lots of time and effort in building this tool, testing it. We will also have to keep it updated with
-                                    changes in Jira and browser&apos;s API, browser updates, etc. A one-time donation of a small amount like $20 or $30
-                                    would encourage us in putting more effort in building an even better working tool for you.
+                                    Building and testing {AppNameLong} has required significant time and effort. We are committed to keeping
+                                    it up-to-date with changes in Jira, browser APIs, browser updates, and more. Your one-time donation, whether
+                                    it's $20 or $30, will motivate us to continue enhancing this tool for your benefit.
                                 </p>
                                 <br />
                                 <p className="mb-40">
-                                    Though we would like to get compensated for the effort we put into development, we are not interested in making
-                                    it a paid tool and force our users to pay for it, or integrate a 3rd party Ad&apos;s in the tool and get compensated
-                                    by annoying our users.
+                                    While we value the effort put into development, we believe in keeping {AppNameLong} free and without third-party ads that
+                                    could inconvenience users. Your contribution ensures that {AppNameLong} remains ad-free, updated, and accessible to all users.
                                 </p>
                                 <br />
                                 <p className="mb-40">
-                                    So, to have your {AppNameLong} always free, Ad free and keep it updated, make a one-time contribution of your
-                                    wish and help yourself and others in building a better working tool for ever.
+                                    By making a one-time contribution, you're not only investing in your own productivity but also supporting others in accessing
+                                    an ever-improving tool. Help us maintain {AppNameLong} as a valuable resource for everyone.
                                 </p>
                             </div>
                         </div>

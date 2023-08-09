@@ -4,10 +4,13 @@ import './Achievement.scss';
 export default function Achievement() {
     return (<section id="counts" className="counts">
         <div className="container">
-            <div className="text-center title">
+            <div className="text-justify title">
                 <h3>What we have achieved so far</h3>
-                <p>Jira Assistant being a 100% free & open source tool, has been a one stop shop for time tracking and worklog reporting over years.
-                    We have simplified the tedious time tracking process to enhance user experience.</p>
+                <p>
+                    For years, Jira Assistant has been the ultimate destination for seamless time tracking and worklog reporting.
+                    Our unwavering dedication to simplifying processes and enhancing user experiences has earned us a prominent place in the industry.
+                    As a 100% free and open-source tool, we've consistently provided individuals and teams with a reliable one-stop solution,
+                    empowering them to manage their time effectively and achieve their objectives.</p>
             </div>
 
             <div className="row counters position-relative">

@@ -14,11 +14,13 @@ const nav = [
             { text: "For Edge", external: true, url: Urls.edgeLink },
             { text: "For Opera", external: true, url: Urls.operaLink },
             { text: "Use Web", external: true, url: WebAppUrl },
-            { text: "App for Cloud Jira", external: true, url: Urls.jiraCloudApp }
+            { text: "App for Cloud Jira", external: true, url: Urls.jiraCloudApp },
+            { text: "Choose Your Option", url: "/install-options" }
         ]
     },
     {
         text: "MORE", subMenus: [
+            { text: "Why Web version", url: "/why-web-version" },
             { text: "Version history", url: "/version-history#latest-updates" },
             { text: "Known bugs", url: "/version-history" },
             { text: "Source code", external: true, url: Urls.sourcecode },

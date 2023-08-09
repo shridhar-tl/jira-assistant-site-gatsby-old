@@ -7,9 +7,25 @@
             "security"
         ],
         "questions": [
-            "Why Jira Assistant require access to all the sites?"
+            "Why does Jira Assistant need access to all sites?",
+            "What is the reason for Jira Assistant requesting access to all sites?",
+            "Can you explain why Jira Assistant requires access to all the websites?"
         ],
-        "answer": "This is no more an issue for chrome users as of JA v2.71. As you would be able to integrate JA with any Jira instance, this permission is required. This is particularly necessary because JA does not ask for/store your credentials and directly connect to Jira with the authentication established by your browser."
+        "answer": "As of JA v2.71, this is no longer an issue for Chrome users. JA can now be integrated with any Jira instance, requiring this permission. It's important because JA doesn't store your credentials; it directly connects to Jira using your browser's established authentication."
+    },
+    {
+        "feature": "integration",
+        "tags": [
+            "integrate",
+            "authenticate",
+            "permissions"
+        ],
+        "questions": [
+            "What permissions does Jira Assistant need for integration?",
+            "Which permissions are required for Jira Assistant integration?",
+            "Can you explain the necessary permissions for integrating with Jira?"
+        ],
+        "answer": "Jira Assistant requires access to Jira in order to establish integration. It uses the authentication established by your browser for this purpose, so you don't need to provide additional credentials. This approach enhances security and simplifies the integration process."
     },
     {
         "feature": "integration",
@@ -18,10 +34,11 @@
             "network error"
         ],
         "questions": [
-            "Network error occurred while trying to integrate with Jira",
-            "Unable to integrate with Jira"
+            "How can I troubleshoot network errors during Jira integration?",
+            "What should I do when encountering network errors while integrating with Jira?",
+            "Network errors are preventing me from integrating with Jira, what's the solution?"
         ],
-        "answer": "While trying to integrate the extension with Jira, ensure that you are logged in to Jira from your browser. Also ensure that you put appropriate URL while integration. Ensure to use http:// or https:// appropriately. Also see to that you provide Jira base path and not page url. Jira base path would be something like https://jira.yourcompany.com or https://yourcompany.com/jira or https://yourcompany.atlassian.net. Don't provide url's like https://jira.yourcompany.com/browse, which would fail with network error."
+        "answer": "When integrating with Jira, ensure you're logged in to Jira from your browser. Use the appropriate URL format, like http:// or https://. Provide the Jira base path, not page URLs. E.g., use https://jira.yourcompany.com, not https://jira.yourcompany.com/browse. Incorrect URLs can lead to network errors."
     },
     {
         "feature": "integration",
@@ -31,11 +48,11 @@
             "401"
         ],
         "questions": [
-            "I get 401 Unauthenticated error frequently",
-            "How to resolve 401 Unauthenticated error?",
-            "Jira Assistant shows 401 Unauthenticated error even after authenticating with Jira"
+            "How do I resolve frequent 401 Unauthenticated errors?",
+            "What steps should I take to fix the 401 Unauthenticated error?",
+            "I'm seeing 401 Unauthenticated errors despite authenticating with Jira, what should I do?"
         ],
-        "answer": "Primarily users will have to be logged into Jira from the same browser where JA is used. Some times user get this error even when user is authenticated with Jira. The reason for that is JA need to access to Jira and sometimes for some users, this access is automatically removed. The root cause for that is still unidentified, but is believed to be environmental issue. To solve it, from 401 page in JA, just click on \"Grant permission\" button and the issue would be resolved. Have a look at #214 in GitHub issue tracker for more details."
+        "answer": "Most importantly, ensure you're logged into Jira from the same browser. If you still face the issue, click 'Grant permission' on the 401 page in JA. Sometimes, JA's access to Jira is revoked, causing this error. For more details, check GitHub issue #214."
     },
     {
         "feature": "integration",
@@ -44,11 +61,11 @@
             "authenticate"
         ],
         "questions": [
-            "Can't authenticate even though logged into Jira",
-            "Unable to integrate with Jira",
-            "Authentication error occurred while trying to integrate with Jira"
+            "I'm unable to authenticate even though I'm logged into Jira. What should I do?",
+            "Authentication is failing despite being logged in to Jira, what's the solution?",
+            "How can I troubleshoot authentication errors during Jira integration?"
         ],
-        "answer": "While trying to integrate the extension with Jira, ensure that you are logged in to Jira from your browser. If you are sure that you are authenticated and you had used the URL properly, then contact the developer with console screenshot/error details."
+        "answer": "Ensure you're logged in to Jira from the same browser. If authentication issues persist, contact the developer with a screenshot of the error or console details for assistance."
     },
     {
         "feature": "integration",
@@ -60,11 +77,11 @@
             "unauthorized"
         ],
         "questions": [
-            "I was unable to integrate with Jira",
-            "I was unable to configure Jira Assistant",
-            "I get cors error while trying to integrate with Jira"
+            "I'm having trouble integrating with Jira. How can I resolve it?",
+            "Configuration issues prevent me from integrating with Jira. How can I fix them?",
+            "I'm encountering CORS errors during Jira integration. What should I do?"
         ],
-        "answer": "For integrating Jira or for using JA, you will have to authenticate with Jira on the same browser window. So, ensure that you are able to access Jira from same browser. If you still continue to face this issue, open console tab (F12) and see if you are getting any CORS issue. If you see CORS issue, try upgrading your browser. If issue persist, then contact the developer for any additional support. But this CORS issue, as of date is non reproducible in developer end and so unfortunately no solution is available."
+        "answer": "Ensure you're authenticated with Jira on the same browser window. If CORS issues arise, upgrade your browser. If the problem persists, contact the developer for further support. Unfortunately, the exact cause of the CORS issue is not reproducible."
     },
     {
         "feature": "integration",
@@ -73,9 +90,38 @@
             "containers"
         ],
         "questions": [
-            "I was unable to use JA with Firefox Multi Account containers?",
-            "JA doesn't work with Firefox when using Multi Account?"
+            "Why can't I use JA with Firefox Multi Account containers?",
+            "Is JA incompatible with Firefox Multi Account containers?",
+            "Can you explain the issues with using JA in Firefox Multi Account containers?"
         ],
-        "answer": "Firefox Multi Account containers are a very minimally used feature with JA. But still it works for most of the users. But for specific users, it doesn't work and so far root cause is not identified. As this issue is not reproducible, it becomes difficult for the developer to fix it. For more details visit GitHub issue tracker #103 and add your comments there."
+        "answer": "Firefox Multi Account containers are rarely used with JA, but they generally work for most users. However, specific users might face compatibility issues. The root cause is unknown, making it difficult to fix. For more details, refer to GitHub issue #103."
+    },
+    {
+        "feature": "integration",
+        "tags": [
+            "integrate",
+            "browser",
+            "compatibility"
+        ],
+        "questions": [
+            "Is Jira Assistant compatible with different web browsers?",
+            "Which web browsers are supported for integrating with Jira Assistant?",
+            "Can I use Jira Assistant across various web browsers?"
+        ],
+        "answer": "Yes, Jira Assistant is available as a browser extension for popular web browsers such as Chrome, Firefox, Edge, and Opera. You can install and use it on any of these browsers to seamlessly integrate with your Jira instance."
+    },
+    {
+        "feature": "integration",
+        "tags": [
+            "integrate",
+            "multiple instances",
+            "switch"
+        ],
+        "questions": [
+            "Can I integrate Jira Assistant with multiple instances of Jira?",
+            "How do I connect Jira Assistant to more than one Jira instance?",
+            "Is it possible to switch between different Jira instances using Jira Assistant?"
+        ],
+        "answer": "Absolutely, Jira Assistant allows you to integrate with multiple Jira instances. After authenticating with Jira in your browser, you can easily switch between instances by clicking on the Jira domain name displayed in the extension's header. This feature provides seamless access to various Jira instances."
     }
 ]

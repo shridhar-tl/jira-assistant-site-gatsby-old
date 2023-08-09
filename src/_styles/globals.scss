@@ -112,13 +112,14 @@ section {
 }
 
 .section-header p {
-    margin: 0 auto;
+    margin: 25px auto;
     color: var(--color-secondary-light);
+    text-align: justify;
 }
 
 @media (min-width: 1280px) {
     .section-header p {
-        max-width: 80%;
+        max-width: 90%;
     }
 }
 

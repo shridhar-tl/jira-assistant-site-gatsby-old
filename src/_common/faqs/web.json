@@ -6,10 +6,11 @@
             "web"
         ],
         "questions": [
-            "Why was Web version of JA Introduced?",
-            "What is the use of Jira Assistant Web version?"
+            "What led to the introduction of the Web version of JA?",
+            "What prompted the development of Jira Assistant Web version?",
+            "Why was JA Web introduced?"
         ],
-        "answer": "JA Web is primarily introduced to support BETA testing by user and for providing quicker fix in case of major bugs. As Web version can be published at any point of time without and waiting time, every day the build would be published and users can experience the next version of JA. Additionally, people who cannot install the app can still use JA Web from the browser using OAuth integration with Jira."
+        "answer": "JA Web was primarily introduced to support BETA testing by users and to provide quicker fixes in case of major bugs. The Web version allows for immediate deployment of builds without waiting periods, giving users access to the next version of JA every day. Additionally, those who cannot install the app can still use JA Web through OAuth integration with Jira."
     },
     {
         "feature": "web",
@@ -18,9 +19,11 @@
             "web"
         ],
         "questions": [
-            "Why sprint report does not work in JA Web OAuth?"
+            "Why doesn't the sprint report work in JA Web OAuth?",
+            "What is the reason behind the sprint report not functioning in JA Web OAuth?",
+            "Can you explain why the sprint report is unavailable in JA Web OAuth?"
         ],
-        "answer": "Currently when using OAuth integration in JA, sprint report does not work. This is due to the limitation that this specific API is not supported in OAuth. This would be resolved in upcoming weeks once other priority works are completed."
+        "answer": "Currently, the sprint report does not work in JA Web OAuth integration due to a limitation in OAuth support for this specific API. This limitation will be addressed in the upcoming weeks as other priority tasks are completed."
     },
     {
         "feature": "web",
@@ -29,10 +32,11 @@
             "web"
         ],
         "questions": [
-            "Why Web version of JA is unstable?",
-            "What is the use of Jira Assistant Web version?"
+            "Why is the Web version of JA considered unstable?",
+            "What factors contribute to the instability of Jira Assistant Web version?",
+            "Is there a reason for the instability in JA Web?"
         ],
-        "answer": "JA Web is primarily introduced to support BETA testing by user and for providing quicker fix in case of major bugs. So, build would be published when ever there are changes. Sometimes the changes may not be fully tested and so there could be some short term bugs which would get resolved in subsequent builds."
+        "answer": "JA Web was primarily introduced to support BETA testing by users and to provide quicker fixes in case of major bugs. Since builds are published whenever there are changes, some changes might not be fully tested, resulting in short-term bugs that will be resolved in subsequent builds."
     },
     {
         "feature": "web",
@@ -41,9 +45,11 @@
             "self host"
         ],
         "questions": [
-            "Can we host Jira Assistant within our data center instead of installing it for each user?"
+            "Is it possible to host Jira Assistant within our data center instead of installing it for each user?",
+            "Can we self-host Jira Assistant in our data center rather than individual installations?",
+            "How can we host Jira Assistant within our own data center?"
         ],
-        "answer": "Yes, JA Web is already available which is hosted using GitHub pages. If you would prefer hosting it within your data center, you can very well do it. However minimal code changes may be required based on how JA integrates with your instance of Jira."
+        "answer": "Yes, JA Web is already available and hosted using GitHub Pages. If you prefer to host it within your data center, it can be done with minimal code changes based on how JA integrates with your Jira instance."
     },
     {
         "feature": "web",
@@ -52,10 +58,11 @@
             "data"
         ],
         "questions": [
-            "Where does JA Web store the data?",
-            "Does JA Web store data in cloud?"
+            "Where does JA Web store its data?",
+            "Is data storage for JA Web located in the cloud?",
+            "Can you clarify where JA Web stores its data?"
         ],
-        "answer": "Similar to extension, JA Web also stores the data in your browser cache only. JA Web is a static site hosted in GitHub itself which does not have any server storage."
+        "answer": "Similar to the extension, JA Web stores its data in your browser cache. JA Web is a static site hosted on GitHub, and it does not use server storage or cloud-based data storage."
     },
     {
         "feature": "web",
@@ -64,10 +71,11 @@
             "web"
         ],
         "questions": [
-            "How can I switch between Web and Extension?",
-            "How can I switch back to Extension from Web?"
+            "How can I switch between the Web and Extension versions of JA?",
+            "What is the process for switching between JA Web and the Extension?",
+            "Can you explain how to switch back and forth between JA Web and the Extension?"
         ],
-        "answer": "You can switch back and forth between Web and Extension anytime. If you want to switch from either of it, just click on Web from top right corner of the page and you would be able to switch from there. Sometimes if Web version of JA crashes and if you were not able to switch back, you can go to extension options page and select/unselect the checkbox accordingly. To open options page, right click JA icon and then for Chrome click Options and for Firefox click Manage Extension -> Options tab"
+        "answer": "You can easily switch between JA Web and the Extension anytime. To switch, click on 'Web' in the top right corner of the page. In case JA Web crashes and you can't switch back, you can go to the extension options page. For Chrome, right-click the JA icon and click 'Options', and for Firefox, go to 'Manage Extension' -> 'Options' tab."
     },
     {
         "feature": "web",
@@ -76,8 +84,36 @@
             "settings"
         ],
         "questions": [
-            "Does the web version sync settings with extension?"
+            "Does the web version sync settings with the extension?",
+            "Are settings synchronized between the web version and the extension?",
+            "Do the settings in the web version sync with the extension?"
         ],
-        "answer": "JA web can be either used as a standalone app or can be integrated with extension. When it is integrated with extension, all the settings are still stored with extension only and Web version just communicates with extension and display the data."
+        "answer": "JA Web can be used either as a standalone app or integrated with the extension. When integrated, all settings remain stored in the extension. The Web version communicates with the extension and displays the stored data."
+    },
+    {
+        "feature": "web",
+        "tags": [
+            "features",
+            "functionality"
+        ],
+        "questions": [
+            "What features are available in the Web version of JA?",
+            "Can you provide an overview of the functionalities in JA Web?",
+            "What functionalities can I expect in Jira Assistant Web version?"
+        ],
+        "answer": "JA Web offers a range of functionalities similar to the extension version, including creating dashboards, managing gadgets, generating reports, and integrating with Jira. You can also enjoy the benefits of custom dashboards, gadgets, and other key features in the Web version."
+    },
+    {
+        "feature": "web",
+        "tags": [
+            "compatibility",
+            "browsers"
+        ],
+        "questions": [
+            "Which browsers are compatible with the Web version of Jira Assistant?",
+            "Can I use JA Web on any browser?",
+            "Is JA Web compatible with popular web browsers?"
+        ],
+        "answer": "JA Web is designed to be compatible with most modern web browsers, including Google Chrome, Mozilla Firefox, Microsoft Edge, and more. However, some specific functionalities might vary across different browsers."
     }
 ]

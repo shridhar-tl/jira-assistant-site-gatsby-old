@@ -1,13 +1,29 @@
 {
-    "timestamp": 1689906375081,
+    "timestamp": 1691337600000,
     "live_versions": {
-        "chrome": 2.51,
-        "firefox": 2.51,
-        "edge": 2.49,
-        "opera": 2.49,
-        "plugin": 2.51
+        "chrome": 2.54,
+        "firefox": 2.54,
+        "edge": 2.52,
+        "opera": 2.54,
+        "plugin": 2.54
     },
     "updates_info": [
+        {
+            "version": 2.54,
+            "isBeta": true,
+            "date": 1691337600000,
+            "publishDate": 1691337600000,
+            "expectedOn": 1691397000000,
+            "whatsnew": [
+                "Bug Fix: Calendar throws error when hide week ends option is selected",
+                "Major UI refactoring and random bug fixes",
+                {
+                    "id": 314,
+                    "text": "Enhance the style of worklog timer start icon"
+                }
+            ],
+            "bugs": []
+        },
         {
             "version": 2.51,
             "isBeta": true,
@@ -16,8 +32,8 @@
             "expectedOn": 1689834600000,
             "whatsnew": [
                 "Custom report: Worklog time spent formatting modified to fit exporting",
-				"Bug Fix: Worklog report sprint wise report not loading with oAuth",
-				"Disabled formatting of worklog hours spent in custom report to support",
+                "Bug Fix: Worklog report sprint wise report not loading with oAuth",
+                "Disabled formatting of worklog hours spent in custom report to support",
                 {
                     "id": 308,
                     "text": "Users under group not being imported for Data center version of Jira"
@@ -113,7 +129,7 @@
             ],
             "bugs": [
                 "Worklog Calendar: If more than 2 worklogs are deleted, then context menu does not show up properly until the page is refreshed",
-				"Bug Fix: Worklog report sprint wise report not loading with oAuth",
+                "Bug Fix: Worklog report sprint wise report not loading with oAuth",
                 {
                     "id": 290,
                     "text": "Import worklog doesn't work"

@@ -1,0 +1,76 @@
+.search-page {
+    min-height: calc(100vh - 400px);
+
+    .search-text {
+        width: calc(100% - 40px);
+    }
+
+    .fa-search {
+        cursor: pointer;
+        font-size: 22px;
+        margin-left: 5px;
+    }
+
+    .search-loader {
+        padding: 40px 0 60px 0;
+        text-align: center;
+        position: relative;
+
+        .fa {
+            font-size: 65px;
+        }
+    }
+
+    .search-info {
+        padding: 5px 0;
+    }
+
+    .search-keyword {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 4px;
+    }
+
+    .search-instead {
+        font-size: 17px;
+
+        span {
+            color: blue;
+            cursor: pointer;
+        }
+    }
+
+    .quota-exceeded,
+    .unknown-error {
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+    .search-results {
+        .search-result {
+            padding: 20px 0;
+
+            .title {
+                font-size: 22px;
+                display: block;
+                cursor: pointer;
+            }
+
+            .link {
+                color: blue;
+                display: block;
+                cursor: pointer;
+            }
+
+            .desc {
+                color: grey;
+                display: block;
+            }
+        }
+
+        .no-results {
+            padding: 15px 0;
+            font-size: 16px;
+        }
+    }
+}

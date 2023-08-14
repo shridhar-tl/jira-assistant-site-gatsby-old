@@ -1,4 +1,5 @@
 import React from 'react';
+import Seo from '../../layout/seo';
 import FeaturesLayout from '../../layout/FeaturesLayout';
 import { AppNameLong } from '../../_common/_constants';
 
@@ -53,3 +54,5 @@ const html = (<div>
 const Component = (props) => (<FeaturesLayout {...props}>{html}</FeaturesLayout>);
 
 export default Component;
+
+export const Head = () => (<Seo title="Dashboard" />);

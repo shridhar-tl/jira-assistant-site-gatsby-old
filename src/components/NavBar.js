@@ -6,7 +6,15 @@ const nav = [
     { text: "HOME", url: "/", exact: true },
     { text: "FEATURES", url: "/features" },
     { text: "FAQ's", url: "/faq" },
-    { text: "CONTRIBUTE", external: true, url: Urls.contributeUrl },
+    {
+        text: "DEVELOPER",
+        subMenus: [
+            { text: "Code Setup", url: '/contribute/code-setup' },
+            { text: "Developer Guide", url: '/contribute/development-guidelines' },
+            { text: "How to contribute?", url: '/contribute/how-to-contribute' },
+            { text: "How to publish?", url: '/contribute/how-to-publish' },
+        ]
+    },
     {
         text: "INSTALL", subMenus: [
             { text: "For Chrome", external: true, url: Urls.chromeLink },

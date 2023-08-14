@@ -1,4 +1,5 @@
 import React from 'react';
+import Seo from '../../../../layout/seo';
 import Link from '../../../../components/Link';
 import FeaturesLayout from '../../../../layout/FeaturesLayout';
 
@@ -78,3 +79,5 @@ const html = (<div>
 const Component = (props) => (<FeaturesLayout {...props}>{html}</FeaturesLayout>);
 
 export default Component;
+
+export const Head = () => (<Seo title="UI Elements" />);

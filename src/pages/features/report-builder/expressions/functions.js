@@ -1,4 +1,5 @@
 import React from 'react';
+import Seo from '../../../../layout/seo';
 import FeaturesLayout from '../../../../layout/FeaturesLayout';
 
 const functionInfo = [
@@ -272,6 +273,9 @@ const html = (<div>
 const Component = (props) => (<FeaturesLayout {...props}>{html}</FeaturesLayout>);
 
 export default Component;
+
+export const Head = () => (<Seo title="Functions" />);
+
 
 function getParamInfo(params) {
     if (!params) { return null; }

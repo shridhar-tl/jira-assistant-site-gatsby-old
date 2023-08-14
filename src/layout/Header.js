@@ -11,7 +11,7 @@ function Header() {
                 <h1>Jira Assistant</h1>
             </Link>
             <NavBar />
-            <Link href="/donate" className="btn-donate">Donate now</Link>
+            <span data-nosnippet><Link href="/donate" className="btn-donate">Donate now</Link></span>
         </div>
     </header>)
 }

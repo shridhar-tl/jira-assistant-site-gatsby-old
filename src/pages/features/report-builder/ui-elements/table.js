@@ -1,4 +1,5 @@
 import React from 'react';
+import Seo from '../../../../layout/seo';
 import FeaturesLayout from '../../../../layout/FeaturesLayout';
 
 const html = (<div>
@@ -146,3 +147,5 @@ const html = (<div>
 const Component = (props) => (<FeaturesLayout {...props}>{html}</FeaturesLayout>);
 
 export default Component;
+
+export const Head = () => (<Seo title="Table Component" />);

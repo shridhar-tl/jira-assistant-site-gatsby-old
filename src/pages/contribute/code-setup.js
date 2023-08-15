@@ -8,21 +8,43 @@ function CodeSetupGuide() {
             <br /><br /><br /><br />
             <section className="container">
                 <h2 className="mb-10">Setting Up Jira Assistant Development Environment</h2>
+                <div>
+                    <h3>Prerequisites and Setup</h3>
+                    <p>Before you start, make sure you have the following prerequisites:</p>
 
+                    <h4>Node.js and npm</h4>
+                    <p>
+                        Node.js and npm (Node Package Manager) are required for running and managing Jira Assistant. You can download and install them from the official <a href="https://nodejs.org/">Node.js website</a>.
+                    </p>
+
+                    <h4>Git</h4>
+                    <p>
+                        Git is a version control system that's used to clone and manage the source code of Jira Assistant. You can install Git by following the instructions on the official <a href="https://git-scm.com/">Git website</a>.
+                    </p>
+
+                    <h4>Docker (Optional)</h4>
+                    <p>
+                        If you're planning to test a Jira Cloud app built with Atlassian Forge, Docker can be helpful for local development and testing. You can download and install Docker Desktop for your operating system from the official <a href="https://www.docker.com/products/docker-desktop">Docker website</a>.
+                    </p>
+                    <strong>Using Docker for Jira Cloud App Testing (Atlassian Forge)</strong>
+                    <p>
+                        If you're testing a Jira Cloud app built with Atlassian Forge, you may want to use Docker for local development and testing. Docker allows you to replicate the runtime environment of your app on the Jira Cloud platform.
+                    </p>
+                </div>
                 <div>
                     <h3>Step 1: Clone the Repository</h3>
                     <p>Clone the Jira Assistant repository from GitHub:</p>
-                    <code>git clone https://github.com/shridhar-tl/jira-assistant.git</code>
+                    <code className="block">git clone https://github.com/shridhar-tl/jira-assistant.git</code>
                     <p>Navigate into the project directory:</p>
-                    <code>cd jira-assistant</code>
+                    <code className="block">cd jira-assistant</code>
                     <p>Switch to develop branch:</p>
-                    <code>git checkout develop</code>
+                    <code className="block">git checkout develop</code>
                 </div>
 
                 <div>
                     <h3>Step 2: Install Dependencies</h3>
                     <p>Install the project dependencies using npm:</p>
-                    <code>npm install</code>
+                    <code className="block">npm install</code>
                 </div>
 
                 <div>
@@ -46,7 +68,7 @@ function CodeSetupGuide() {
                         Open the <code>hosts</code> file located at <code>C:\Windows\System32\drivers\etc\hosts</code>.
                     </p>
                     <p>Add the following line:</p>
-                    <code>127.0.0.1 local.jiraassistant.com</code>
+                    <code className="block">127.0.0.1 local.jiraassistant.com</code>
                 </div>
 
                 <div>
@@ -59,7 +81,7 @@ function CodeSetupGuide() {
                 <div>
                     <h2>Running the Project</h2>
                     <p>Run the project using npm:</p>
-                    <code>npm start</code>
+                    <code className="block">npm start</code>
                     <p>
                         Access the development environment at{' '}
                         <code>http://local.jiraassistant.com:{'{'}PORT{'}'}</code> (replace <code>{'{'}PORT{'}'}</code> with the chosen port number).

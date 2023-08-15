@@ -61,21 +61,17 @@ function DevelopmentGuidelines() {
                 <p>
                     <strong>Note:</strong> This command will download around 1GB of data for container setup.
                 </p>
-                <pre>
-                    <code>
-                        docker pull atlassian/jira-software<br />
-                        docker volume create --name jiraVolume<br />
-                        docker run -v jiraVolume:/var/atlassian/application-data/jira --name="jira" -d -p 9090:8080 atlassian/jira-software
-                    </code>
-                </pre>
+                <code className="block">
+                    docker pull atlassian/jira-software<br />
+                    docker volume create --name jiraVolume<br />
+                    docker run -v jiraVolume:/var/atlassian/application-data/jira --name="jira" -d -p 9090:8080 atlassian/jira-software
+                </code>
                 <p>
                     For subsequent development sessions, simply start the existing container with:
                 </p>
-                <pre>
-                    <code>
-                        docker start jira
-                    </code>
-                </pre>
+                <code className="block">
+                    docker start jira
+                </code>
                 <p>
                     Access your personal Jira instance by opening <Link href="http://localhost:9090">http://localhost:9090</Link> in your browser and following the setup instructions.
                 </p>

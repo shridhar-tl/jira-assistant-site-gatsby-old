@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "jira-assistant-site",
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Shridhar TL",
   "dependencies": {
     "bootstrap": "^5.3.1",
     "bootstrap-icons": "^1.10.5",
@@ -15,10 +15,11 @@
     "gatsby-plugin-sass": "^6.11.0",
     "gatsby-plugin-sharp": "^5.11.0",
     "gatsby-source-filesystem": "^5.11.0",
+    "gatsby-transformer-remark": "^6.11.0",
     "gatsby-transformer-sharp": "^5.11.0",
+    "ja-issues-cache": "github:shridhar-tl/ja-issues-cache",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-markdown": "^8.0.7",
     "sass": "^1.64.2"
   },
   "devDependencies": {

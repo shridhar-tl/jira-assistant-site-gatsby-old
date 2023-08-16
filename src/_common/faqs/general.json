@@ -21,7 +21,7 @@
             "Can I add a new feature in Jira Assistant?",
             "Can I raise pull request (PR) in Jira Assistant?"
         ],
-        "answer": "JA is an open-source project where the source code is available on GitHub. Any developers are more than welcome to raise a PR for a bug fix or for a new feature. Guidelines for development are available on GitHub."
+        "answer": "JA is an open-source project where the source code is available on GitHub. Any developers are more than welcome to raise a PR for a bug fix or for a new feature. Guidelines for development are available under DEVELOPER menu."
     },
     {
         "feature": "general",

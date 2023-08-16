@@ -24,6 +24,14 @@ module.exports = {
         path: `${__dirname}/static/images`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `issues`,
+        path: `${__dirname}/node_modules/ja-issues-cache/issues`,
+      },
+    },
+    `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

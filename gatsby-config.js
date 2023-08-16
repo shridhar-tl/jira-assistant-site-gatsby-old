@@ -10,13 +10,19 @@
 module.exports = {
   siteMetadata: {
     title: `Jira Assistant`,
-    description: `Jira Assistant is a open-source fully customizable browser extension which easily integrates with Jira to help track worklogs, generate various reports, bulk import issues & worklogs, etc..`,
+    description: `Jira Assistant is a open-source fully customizable plugin for Jira which easily integrates with Jira to help track worklogs, generate various reports, bulk import issues & worklogs, etc..`,
     author: `Shridhar TL`,
     siteUrl: `https://www.jiraassistant.com/`,
     contactEmail: 'shridhar.tl@gmail.com'
   },
   plugins: [
     `gatsby-plugin-image`,
+    {
+      resolve: 'gatsby-plugin-html-attributes',
+      options: {
+        lang: 'en'
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -49,5 +55,16 @@ module.exports = {
       },
     },
     `gatsby-plugin-sass`,
+    {
+      resolve: "gatsby-plugin-sitemap",
+      options: {
+        createLinkInHead: true,
+        excludes: [
+          "/search/",
+          "/search/*",
+          "/faq/"
+        ]
+      }
+    },
   ],
 }

@@ -1,9 +1,10 @@
 import React from 'react';
+import { graphql } from 'gatsby';
 import Layout from '../layout';
 import Seo from '../layout/seo';
 import { getDisplayDate } from '../_common/utils';
 import { AppNameLong, Urls } from '../_common/_constants';
-//import IssueListControl from '../components/IssueListControl'; // ToDo: need to fetch data from github
+import IssueListControl from '../components/IssueListControl';
 import messages from '../../static/messages.json';
 import knownBugs from '../../static/known-issues.json';
 
@@ -29,7 +30,7 @@ function renderUpdatesBlock(m, i) {
     </div>);
 }
 
-function VersionHistory() {
+function VersionHistory(props) {
     return (
         <Layout>
             <div className="container">
@@ -48,7 +49,7 @@ function VersionHistory() {
                     <p>Following are the list of changes done in each version of {AppNameLong}.</p>
                     {updates_info.map(renderUpdatesBlock)}
                 </div>
-                {/* ToDo: <IssueListControl />*/}
+                <IssueListControl data={props.data} />
             </div>
         </Layout>
     );
@@ -57,3 +58,18 @@ function VersionHistory() {
 export default VersionHistory;
 
 export const Head = () => (<Seo title="Version history and known bugs" />);
+
+export const pageQuery = graphql`
+query {
+  allMarkdownRemark {
+    edges {
+      node {
+        frontmatter {
+          id
+          slug
+        }
+      }
+    }
+  }
+}
+`;

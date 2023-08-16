@@ -1,3 +1,5 @@
+import { featureList, customFaqFeatureList } from './faqs/constants';
+
 const AppNameLong = "Jira Assistant";
 const AppNameShort = "Jira Assist";
 
@@ -108,14 +110,4 @@ const featuresImageList = [
     }
 ];
 
-const featureList = [
-    { feature: "integration", title: "Integration", path: "/integration" },
-    { feature: "dashboard", title: "Dashboard", path: "/dashboard" },
-    { feature: "reports", title: "Reports", path: "/reports" },
-    { feature: "report-builder", title: "Report Builder", path: "/report-builder" },
-    { feature: "calendar", title: "Calendar / Worklogs", path: "/calendar" },
-    { feature: "bulk-import", title: "Bulk Import", path: "/bulk-import" },
-    { feature: "settings", title: "Settings", path: "/settings" }
-]
-
-export { AppNameLong, AppNameShort, SiteUrl, isBrowser, SupportEmailId, Urls, featuresImageList, featureList, Apis, WebAppUrl };
+export { AppNameLong, AppNameShort, SiteUrl, isBrowser, SupportEmailId, Urls, featuresImageList, featureList, customFaqFeatureList, Apis, WebAppUrl };

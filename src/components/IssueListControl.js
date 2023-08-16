@@ -1,17 +1,12 @@
 import React from 'react';
-import { loadIssuesListFromGitHub } from '../_common/common';
+import * as helpers from '../_common/issues-list';
 
-async function loadIssuesList() {
-    const { issues } = await loadIssuesListFromGitHub();
-    return issues.map(issue => ({ id: issue.number, url: `/issue-tracker/${encodeURIComponent(issue.title)}/${issue.number}` }));
-}
-
-async function IssueListControl() {
-    const issues = await loadIssuesList();
+function IssueListControl(props) {
+    const issues = helpers.formatIssuesList(props);
 
     return (
         <div style={{ width: '1px', height: '1px', overflow: 'hidden' }}>
-            {issues.map((issue, i) => <a key={i} href={issue.url}>{issue.id}</a>)}
+            {issues.map((issue, i) => <a key={i} href={issue.path}>{issue.id}</a>)}
         </div>
     );
 }

@@ -8,12 +8,14 @@
     scroll-behavior: smooth;
 }
 
-a {
+a,
+.link {
     color: var(--color-links);
     text-decoration: none;
 }
 
-a:hover {
+a:hover,
+.link:hover {
     color: var(--color-links-hover);
     text-decoration: none;
 }
@@ -114,7 +116,6 @@ section {
 
 .section-header p {
     margin: 25px auto;
-    color: var(--color-secondary-light);
     text-align: justify;
 }
 

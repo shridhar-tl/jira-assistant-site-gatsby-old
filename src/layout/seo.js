@@ -31,6 +31,7 @@ function Seo({ description, title, children, noAppend }) {
     <>
       {noAppend && <title>{title || defaultTitle}</title>}
       {!noAppend && <title>{title ? `${title} - [${defaultTitle}]` : defaultTitle}</title>}
+      {/*<meta http-equiv="Content-Security-Policy" content="script-src 'https://www.jiraassistant.com' unsafe-inline; object-src: none;" />*/}
       <meta name="description" content={metaDescription} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={metaDescription} />

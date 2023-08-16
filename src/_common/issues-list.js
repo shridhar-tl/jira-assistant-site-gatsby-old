@@ -1,6 +1,4 @@
-
-async function getIssuesList(graphql) {
-    const { data: { allMarkdownRemark: { edges } } } = await graphql(`
+const queryWithHtml = `
 query {
   allMarkdownRemark {
     edges {
@@ -15,13 +13,38 @@ query {
     }
   }
 }
-`);
+`;
+const queryWithOutHtml = `
+query {
+  allMarkdownRemark {
+    edges {
+      node {
+        frontmatter {
+          id
+          slug
+        }
+      }
+    }
+  }
+}
+`;
 
-    return edges.map(edge => {
-        const { html, frontmatter: { id, slug, title } } = edge.node;
+async function getIssuesList(graphql, includeHtml = true) {
+  const result = await graphql(includeHtml ? queryWithHtml : queryWithOutHtml);
 
-        return { id, slug: slug.replace(/[/\\?%*:|"<> ]/g, '-').trim(), title, html };
-    });
+  return formatIssuesList(result);
 }
 
-module.exports = { getIssuesList };
+function formatIssuesList({ data: { allMarkdownRemark: { edges } } }) {
+  return edges.map(({ node }) => {
+    const { html, frontmatter: { id, slug, title } } = node;
+    const replacedSlug = slug.replace(/[^A-Za-z0-9-]/g, '-').replace(/--/g, '-').trim().toLowerCase();
+
+    return {
+      id, slug: replacedSlug, title, html,
+      path: `/issue-tracker/${id}/${encodeURIComponent(replacedSlug)}`
+    };
+  });
+}
+
+module.exports = { getIssuesList, formatIssuesList };

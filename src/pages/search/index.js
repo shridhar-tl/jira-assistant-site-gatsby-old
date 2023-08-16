@@ -94,7 +94,7 @@ export default Search;
 export const Head = () => (<Seo title="Search" />);
 
 function getTitleElement(r) {
-    if (r.link.indexOf('/issue-tracker/') > -1) {
+    if (r.link.includes('/issue-tracker/')) {
         return <a href={mapIssuesLinkToGitHub(r.link)} className="title" target="_blank" rel="noopener noreferrer" dangerouslySetInnerHTML={{ __html: decodeURIComponent(r.htmlTitle) }} />
     } else {
         return <Link to={r.link} className="title">{fixSearchTitle(r.title)}</Link>
@@ -102,8 +102,11 @@ function getTitleElement(r) {
 }
 
 function mapIssuesLinkToGitHub(url) {
-    if (url.indexOf('/issue-tracker/') > -1) {
-        const issueKey = parseInt(url.substring(url.lastIndexOf('/') + 1));
+    if (url.includes('/issue-tracker/')) {
+        const path = url.substring(url.indexOf('/issue-tracker/') + 15);
+
+        const issueKey = parseInt(path.substring(0, path.indexOf('/')));
+
         if (issueKey) {
             return Urls.issueTracker + '/' + issueKey;
         }

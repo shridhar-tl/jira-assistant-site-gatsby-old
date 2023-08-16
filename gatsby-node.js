@@ -4,6 +4,7 @@
  * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/
  */
 
+const { featureList, customFaqFeatureList } = require('./src/_common/faqs/constants');
 const { getIssuesList } = require('./src/_common/issues-list');
 
 /**
@@ -19,6 +20,7 @@ exports.createPages = async ({ actions, graphql }) => {
   })*/
 
   await createRoutesForIssues(graphql, actions);
+  createFAQPages(actions.createPage);
 
   rewrites.forEach(config => createRedirect({
     statusCode: 200,
@@ -26,23 +28,33 @@ exports.createPages = async ({ actions, graphql }) => {
   }));
 }
 
+function createFAQPages(createPage) {
+  [...featureList, ...customFaqFeatureList].forEach(faq => {
+    createPage({
+      path: `/faq${faq.path || '/' + faq.feature}`,
+      component: require.resolve(`./src/pages/faq/index.js`),
+      context: { featureName: faq.feature.toLowerCase() }
+    });
+  });
+}
+
 async function createRoutesForIssues(graphql, actions) {
   const issues = await getIssuesList(graphql);
 
   issues.forEach(issue => {
-    const { id, slug, title, html } = issue;
+    const { path, id, title, html } = issue;
 
     actions.createPage({
-      path: `/issues/${id}/${slug}`,
-      matchPath: `/issues/${id}/:slug`,
+      path,
+      matchPath: `/issue-tracker/${id}/:slug?`,
       component: require.resolve(`./src/templates/issue-template.js`),
-      context: { title, html },
+      context: { title, html }
     });
-
-    actions.createRedirect({
-      fromPath: `/issues/${id}`,
-      toPath: `/issues/${id}/${slug}`
-    });
+    /*
+        actions.createRedirect({
+          fromPath: `/issue-tracker/${id}`,
+          toPath: `/issue-tracker/${id}/${slug}`
+        });*/
   })
 }
 

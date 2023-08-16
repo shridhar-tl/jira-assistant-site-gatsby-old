@@ -30,11 +30,11 @@ function FeatureItem({ item }) {
                 <div className="icon">
                     <i className={item.icon}></i>
                 </div>
-                <a href="#" className="stretched-link">
+                <span className="stretched-link">
                     <h3>{item.title}</h3>
-                </a>
+                </span>
                 <p>{item.details}</p>
-                <a href="#" className="stretched-link"></a>
+                <span className="stretched-link"></span>
             </div>
         </div>
     </div>);

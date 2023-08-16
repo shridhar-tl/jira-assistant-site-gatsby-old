@@ -9,6 +9,10 @@ import React from "react";
 import '../_common/extensions';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
+// Font icons
+import '@fortawesome/fontawesome-free/scss/fontawesome.scss';
+import '@fortawesome/fontawesome-free/scss/regular.scss';
+import '@fortawesome/fontawesome-free/scss/solid.scss';
 import '../_styles/globals.scss';
 import Header from './Header';
 import Footer from './Footer';

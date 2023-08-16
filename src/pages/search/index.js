@@ -7,8 +7,8 @@ import Seo from '../../layout/seo';
 import Link from '../../components/Link';
 import TextBox from '../../components/TextBox';
 import SearchService from '../../_services/SearchService';
-import './Search.scss';
 import Loader from '../../components/Loader';
+import './Search.scss';
 
 function Search(props) {
     const ref = React.useRef();
@@ -62,7 +62,8 @@ function Search(props) {
                 <h1>Search {AppNameLong}</h1>
                 <div className="col-l-12"><TextBox className="search-text" value={searchText} placeholder="search for a feature, answer or a settings in Jira Assistant"
                     onChange={setSearchText} onEnterKey={search} />
-                    <span className="fa fa-search" onClick={search} /></div>
+                    <button className="fa fa-search icon-button" onClick={search} title="Click to search" />
+                </div>
                 {quotaExceeded && <div className="quota-exceeded">Search functionality is not available anymore for today.
                     You can use it tomorrow. Sorry for the inconvenience caused.
                     For now you can refer our <Link to="/features">features list</Link> or <Link to="/faq">faq</Link> section to get your answer.

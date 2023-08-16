@@ -1,6 +1,6 @@
-import { isAllowedMethod } from '../middleware/api-helpers';
-import Ajax from '../_services/AjaxService';
-import { setCorsHeader } from '../middleware/cors';
+import { isAllowedMethod } from '../../../middleware/api-helpers';
+import Ajax from '../../../_services/AjaxService';
+import { setCorsHeader } from '../../../middleware/cors';
 // https://developer.atlassian.com/cloud/jira/platform/oauth-2-3lo-apps/
 // https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/
 

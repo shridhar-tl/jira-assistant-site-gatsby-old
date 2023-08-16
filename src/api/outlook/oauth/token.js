@@ -1,6 +1,6 @@
-import { isAllowedMethod } from '../middleware/api-helpers';
-import Ajax from '../_services/AjaxService';
-import { setCorsHeader } from '../middleware/cors';
+import { isAllowedMethod } from '../../../middleware/api-helpers';
+import Ajax from '../../../_services/AjaxService';
+import { setCorsHeader } from '../../../middleware/cors';
 // https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-auth-code-flow
 
 const tenentId = process.env.OUTLOOK_TENENT_ID;

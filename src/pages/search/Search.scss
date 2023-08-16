@@ -3,6 +3,9 @@
 
     .search-text {
         width: calc(100% - 40px);
+        padding: 5px 8px;
+        border-radius: 8px;
+        border: 1px solid rgb(214, 214, 214);
     }
 
     .fa-search {
@@ -52,7 +55,6 @@
 
             .title {
                 font-size: 22px;
-                display: block;
                 cursor: pointer;
             }
 
